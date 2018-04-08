@@ -4,7 +4,7 @@
 <ul><li>the1_iterative.c</li>
 <li>the1_recursive.c</li>
 <li>the1_part2.c</li></ul>
-and run under your favourite Linux environment.</p>
+and run <i>tester.py</i> under your favourite Linux environment.</p>
 <h2>Can I add my own tests?</h2>
 <p>Yes, you can.</p>
 <ul><li>For Part I&nbsp;, rename your sample I/O pair as the following: 1_name.in 1_name.out</li>
