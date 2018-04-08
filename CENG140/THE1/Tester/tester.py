@@ -153,8 +153,8 @@ def getinput():
 print "Tester for 2017-2018 CENG140 Take Home Exam 1"
 print liners
 print "To add new tests to the tester, just copy and paste the in and out files to the tests directory."
-print "Remember: Sample data for Part I  should have the following name format: 1_name.in & 1_name.out"
-print "Remember: Sample data for Part II should have the following name format: 2_name.in & 2_name.out"
+print "Remember: I/O pairs for Part I  should have the following name format: 1_name.in & 1_name.out"
+print "Remember: I/O pairs for Part II should have the following name format: 2_name.in & 2_name.out"
 print "Otherwise the tests won't work properly!"
 print "Enjoy the ride, and please let me know of any troubles you encounter!"
 print "Mustafa Ozan Alpay - ozan.alpay@metu.edu.tr"
