@@ -16,19 +16,19 @@ true2=0
 true3=0
 liners="----------------------------------------------------------------------"
 def p1i():
-	global true2
-	global tests1
-	#tests for part 1 iterative
-	for i in xrange(p1c):
-		removejunk()
-		print "\tTesting Iterative Solution"
+    global true2
+    global tests1
+    try:
+        removejunk()
+        os.system("mkdir results")
+        os.system("gcc the1_iterative.c -Wall -ansi -pedantic-errors -o t1p1i")
+        print "\tTesting Iterative Solution"
+    except:
+        raise
+        exit()
+    #tests for part 1 iterative
+    for i in xrange(p1c):
 		j=str(i+1)
-		try:
-			os.system("mkdir results")
-			os.system("gcc the1_iterative.c -Wall -ansi -pedantic-errors -o t1p1i")
-		except:
-			raise
-			exit()
 		start=time.time()
 		command="./t1p1i < "+tests1[i]+" > results/1_i"+j+".out"
 		os.system(command)
@@ -58,20 +58,20 @@ def p1i():
 				print "\t "+om+"\t\t\t "+em
 			print liners
 def p1r():
-	global true1
-	global tests1
+    global true1
+    global tests1
 	#tests for part 1 recursive
-	print liners
-	for i in xrange(p1c):
-		removejunk()
-		print "\tTesting Recursive Solution"
+    print liners
+    try:
+        removejunk()
+        os.system("mkdir results")
+        os.system("gcc the1_recursive.c -Wall -ansi -pedantic-errors -o t1p1r")
+        print "\tTesting Recursive Solution"
+    except:
+        raise
+        exit()
+    for i in xrange(p1c):
 		j=str(i+1)
-		try:
-			os.system("mkdir results")
-			os.system("gcc the1_recursive.c -Wall -ansi -pedantic-errors -o t1p1r")
-		except:
-			raise
-			exit()
 		start=time.time()
 		command="./t1p1r < "+tests1[i]+" > results/1_r"+j+".out"
 		os.system(command)
@@ -101,17 +101,17 @@ def p1r():
 				print "\t "+om+"\t\t\t "+em
 			print liners
 def p2():
-	global true3
-	global tests2
-	for i in xrange(p2c):
-		removejunk()
+    global true3
+    global tests2
+    try:
+        removejunk()
+        os.system("mkdir results")
+        os.system("gcc the1_part2.c -Wall -ansi -pedantic-errors -o t1p2")
+    except:
+        raise
+        exit()
+    for i in xrange(p2c):
 		j=str(i+1)
-		try:
-			os.system("mkdir results")
-			os.system("gcc the1_part2.c -Wall -ansi -pedantic-errors -o t1p2")
-		except:
-			raise
-			exit()
 		start=time.time()
 		command="./t1p2 < "+tests2[i]+" > results/2_"+j+".out"
 		os.system(command)
