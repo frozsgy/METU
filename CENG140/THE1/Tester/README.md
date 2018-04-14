@@ -11,6 +11,7 @@ and run <i>tester.py</i> under your favourite Linux environment.</p>
 <li>1_2  Courtesy of Fatih Develi</li>
 <li>1_3  Courtesy of Fatih Develi</li>
 <li>2_1  Provided by the instructors</li></ul>
+<li>2_2  Provided by the instructors</li></ul>
 <h2>Can I add my own tests?</h2>
 <p>Yes, you can.</p>
 <ul><li>For Part I&nbsp;, rename your I/O pair as the following: 1_name.in 1_name.out</li>

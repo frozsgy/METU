@@ -125,15 +125,18 @@ def p2():
 		oes=outs.split("\n")
 		print liners
 		inp=open(tests2[i],"r").read()
-		# bugfix by yorum uyanik
 		inp2=inp.split("\n")
-		total=calc(inp2,oes,0,1,0,0)
+		sizei=int(inp2[0])
+		a=[]
+		for m in xrange(sizei):
+			a.append(map(int,inp2[m+1].split()))
+
 		ec=ees[0].index(',')
 		oc=oes[0].index(',')
+		total=calculate(a,oes[0][:oc])
 		energyofexpected=ees[0][ec:]
 		energyofout=oes[0][oc:]
 		if(energyofexpected == energyofout and total==int(ees[0][ec+16:]) and ees[1]==oes[1]):
-			# end of bugfix by yorum uyanik
 			print "\tTest %s passed!" % tests2[i][6:-3]
 			true3+=1
 		else :
@@ -152,16 +155,18 @@ def p2():
 					om=""
 				print "\t "+om+"\t\t\t "+em
 			print liners
-# bugfix by yorum uyanik
-def calc(inp,out,i,j,total,move):
-	total=total+int(inp[j][2*i])*40
-	if(out[0][2*(move)]=="S"):
-		return calc(inp,out,i,j+1,total,move+1)
-	elif(out[0][2*(move)]=="E"):
-		return calc(inp,out,i+1,j,total,move+1)
-	else:
-		return total
-# end of bugfix by yorum uyanik
+def calculate(inp,oes):
+	x=0
+	y=0
+	total=inp[y][x]
+	oes2=oes.split()
+	for i in oes2:
+		if(i == 'S'):
+			y+=1
+		elif(i == 'E'):
+			x+=1
+		total+=inp[y][x]
+	return total*40
 def getinput():
 	global tests
 	try:
