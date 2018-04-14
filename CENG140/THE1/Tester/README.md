@@ -10,7 +10,7 @@ and run <i>tester.py</i> under your favourite Linux environment.</p>
 <ul><li>1_1  Provided by the instructors</li>
 <li>1_2  Courtesy of Fatih Develi</li>
 <li>1_3  Courtesy of Fatih Develi</li>
-<li>2_1  Provided by the instructors</li></ul>
+<li>2_1  Provided by the instructors</li>
 <li>2_2  Provided by the instructors</li></ul>
 <h2>Can I add my own tests?</h2>
 <p>Yes, you can.</p>
