@@ -10,4 +10,4 @@
 <p><b>Yes, you can.</b></p>
 <p>Place your I/O pair inside the tests folder as the following naming: name.in name.out and voila!</p>
 <p>Cheers and enjoy the ride!</p>
-<font size="2"><i>Developed by Alperen Caykus & Mustafa Ozan Alpay</i></font>
+<h5>Developed by <i>Alperen Caykus & Mustafa Ozan Alpay</i></h6>
