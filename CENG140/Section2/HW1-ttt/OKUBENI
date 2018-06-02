@@ -1,0 +1,8 @@
+Just move your binary here, then type bash tester.sh.
+If you are paranoid, you may want to regenarate test numbers.
+
+Note that if there will be a segmentation fault, or an infinite loop, it is probably because of the uncompleted termination function in your code.
+
+Also note that, since the first turn is randomly chosen it is very difficult to compare results. To compare, tester tries 20 time and expects at least 1 success.
+
+Good Luck!
