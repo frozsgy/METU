@@ -3,7 +3,11 @@
 <p>Place your homework submission in the main directory with the name: <i>the2.c</i> and run <i>tester.py</i> under your favourite Linux environment.</p>
 <p>PS: You must have at least one I/O pair for the part of the homework you'd like to run, otherwise the program won't work.</p>
 <h2>Current I/O Pairs List</h2>
-<ul><li>1 - Provided by the instructors</li>
+<ul>
+<li>Sample_1 - Provided by the instructors</li>
+<li>Sample_2 - Provided by the instructors</li>
+<li>The-X-Files - Courtesy of M. Ozan Alpay</li>
+<li>Star_GORA - Courtesy of M. Ozan Alpay</li>
 
 </ul>
 <h2>Can I add my own tests?</h2>
