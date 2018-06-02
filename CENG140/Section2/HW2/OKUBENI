@@ -1,0 +1,14 @@
+How to Use?
+'cb' file should be replaced by file to be tested, then simply run test.sh.
+Ex : ./test.sh 500
+
+
+Notes
+It generates random commands and tests by comparing with the real binary. To be more accurate please increase the number of trials.
+But note, if you increase too much, it will be very difficult to understand the output, so try with less trials. When there is no errors printed increase the number of trials.
+
+
+Understanding Output
+Output gives the differences. Note that your binary should be terminated with quit command, otherwise there will be timeout.
+If you see a very long output, probably there is a segmentation fault. Inspect the data folder for further information.
+< implies the correct output, while > implies the output of the tested program.
