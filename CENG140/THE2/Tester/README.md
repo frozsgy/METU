@@ -8,6 +8,7 @@
 <li>Sample_2 - Provided by the instructors</li>
 <li>The-X-Files - Courtesy of M. Ozan Alpay</li>
 <li>Star_GORA - Courtesy of M. Ozan Alpay</li>
+<li>ac1 ... ac7 - Courtesy of Alperen Caykus</li>
 
 </ul>
 <h2>Can I add my own tests?</h2>
