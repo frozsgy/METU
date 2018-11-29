@@ -1,0 +1,226 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{float}
+\usepackage{amsmath}
+
+
+\usepackage[hmargin=3cm,vmargin=6.0cm]{geometry}
+%\topmargin=0cm
+\topmargin=-2cm
+\addtolength{\textheight}{6.5cm}
+\addtolength{\textwidth}{2.0cm}
+%\setlength{\leftmargin}{-5cm}
+\setlength{\oddsidemargin}{0.0cm}
+\setlength{\evensidemargin}{0.0cm}
+
+%misc libraries goes here
+%\usepackage{fitch}
+
+
+\begin{document}
+
+\section*{Student Information } 
+%Write your full name and id number between the colon and newline
+%Put one empty space character after colon and before newline
+Full Name : Mustafa Ozan ALPAY \\
+Id Number : 2309615 \\
+
+% Write your answers below the section tags
+\section*{Answer 1}
+\begin{enumerate}
+	\item 
+	\begin{enumerate}
+	\item is a \textbf{tautology}. 
+	\begin{table}[H]
+	\small
+    \centering
+    \caption{ Truth table for Question 1.1.a }
+    \begin{tabular}{|c|c|c|c|ccccc|}	
+    \hline 							
+    \textbf{$p$} & \textbf{$q$} & \textbf{$r$} & \textbf{$\neg r$} &  \textbf{$((p\rightarrow q)$} & \textbf{$\leftrightarrow$} & \textbf{$(p\land\neg r))$} & \textbf{$\rightarrow$} & \textbf{$\neg(q\land r)$}  \\
+    \hline 
+    \hline 
+    T & T & T & F & T & F & F & \textbf{T} & F \\ \hline
+    T & T & F & T & T & T & T & \textbf{T} & T \\ \hline
+    T & F & T & F & F & T & F & \textbf{T} & T \\ \hline
+    T & F & F & T & F & F & T & \textbf{T} & T \\ \hline
+    F & T & T & F & T & F & F & \textbf{T} & F \\ \hline
+    F & T & F & T & T & F & F & \textbf{T} & T \\ \hline
+    F & F & T & F & T & F & F & \textbf{T} & T \\ \hline
+    F & F & F & T & T & F & F & \textbf{T} & T \\ \hline
+    \end{tabular}
+    \end{table}
+	\item is a  \textbf{contradiction}.
+	\begin{table}[H]
+	\small
+    \centering
+    \caption{ Truth table for Question 1.1.b }
+    \begin{tabular}{|c|c|c|cccccc|}	
+    \hline 							
+    \textbf{$p$} & \textbf{$q$} &  \textbf{$\neg p$} & \textbf{$ \neg $} & \textbf{$ ((p\lor q) $} & \textbf{$ \land $} & \textbf{$ (p \rightarrow q) $} & \textbf{$ \lor $} & \textbf{$ (q \rightarrow \neg p))  $}  \\
+    \hline 
+    \hline 
+    T & T & F & \textbf{F} & T & T & T & T & F \\ \hline
+    T & F & F & \textbf{F} & T & F & F & T & T \\ \hline
+    F & T & T & \textbf{F} & T & T & T & T & T \\ \hline
+    F & F & T & \textbf{F} & F & F & T & T & T \\ \hline
+    \end{tabular}
+    \end{table}
+    \end{enumerate}
+    \item
+	\begin{enumerate}
+	\item $ \exists xP(x) \land \exists xQ(x) \rightarrow \exists x(P(x) \land Q(x)) $ is \textbf{invalid}.
+	\begin{enumerate}
+	    \item Let us say U is integers; $P(x)$ states ``$x$ is even", and $Q(x)$ states ``$x$ is odd".
+	    \item The left hand side is $T$, and the right hand side is $F$.
+	    \item Since $T \rightarrow F \equiv F$, the statement is \textbf{invalid}.
+	\end{enumerate} 
+	\item $ \forall xP(x) \rightarrow \exists xP(x) $ is \textbf{valid}.
+	\begin{enumerate}
+	    \item Given logical statement can be translated as ``for all $x$ $P(x)$, there is at least one $x$ such that $P(x)$." 
+	    \item Since each element inside $\exists xP(x)$ also exists inside $\forall xP(x)$; if $\forall xP(x)$ is $T$, then $\exists xP(x)$ also must be $T$. Similarly, if $\forall xP(x)$ is $F$, then $\exists xP(x)$ also must be $F$.
+	    \item $T \rightarrow T \equiv T$, and $F \rightarrow F \equiv T$, the statement is \textbf{valid}.
+	\end{enumerate}
+	\end{enumerate}
+\end{enumerate}
+
+\section*{Answer 2}
+\begin{table}[H]
+    \begin{tabular}{ccl|l}	
+    $ ( \neg p \lor p ) \rightarrow ((p \land \neg q) \rightarrow r ) $ & $\equiv $ & $ T \rightarrow ((p \land \neg q) \rightarrow r )$ & By using \textbf{Negation laws} \\
+    & $\equiv $ & $ F \lor ((p \land \neg q) \rightarrow r )$ & By using \textit{Table 7} \\
+    & $\equiv $ & $ ((p \land \neg q) \rightarrow r ) \lor F $ & By using \textbf{Commutative laws} \\
+    & $\equiv $ & $ (p \land \neg q) \rightarrow r $ & By using \textbf{Identity laws} \\
+    & $\equiv $ & $ \neg (p \land \neg q) \lor r $ & By using \textit{Table 7} \\
+    & $\equiv $ & $ \neg p \lor q \lor r $ & By using \textbf{De Morgan's laws} \\
+    & $\equiv $ & $ \neg p \lor (q \lor r) $ & By using \textbf{Associative laws} \\
+    & $\equiv $ & $ (q \lor r) \lor \neg p $ & By using \textbf{Commutative laws}\\
+    \end{tabular}
+\end{table}
+Thus, $ ( \neg p \lor p ) \rightarrow ((p \land \neg q) \rightarrow r ) $ and  $ (q \lor r) \lor \neg p $ are logically equivalent.
+
+\section*{Answer 3}
+\begin{enumerate}
+    \item $\forall x (W(x) \rightarrow Has\_CS\_Degree(x))$
+    \item $ \forall x \forall y (  (Phd(x) \land W(x)) \land (Phd(y) \land W(y) \rightarrow Knows(x,y))) $  
+    \item $ \forall x ((W(x) \land W(Cenk) \land (x\neq Cenk)) \rightarrow Older(Cenk,x)) $ 
+    \item $ \forall x ((W(x) \land  (x \neq Selen) \land W(Selen) ) \rightarrow Phd(x)) $ 
+    \item $ \exists x \exists y ((  W(x) \land W(y)) \land \neg Knows(x,y) ) $ 
+    \item $\forall x \forall y \forall z (((Phd(x) \land Phd(y)) \land (x \neq y)) \rightarrow (Phd(z) \rightarrow ((z=x) \lor (z=y)))   ) $ 
+    \item $ \exists x \exists y \exists z ( Older(x,Gizem) \land Older(y,Gizem) \land Older(z,Gizem) \land (x \neq y) \land (y \neq z)) $ 
+    \item $ \exists x \forall y ( (Phd(x) \land W(x)) \land ( (Phd(y) \land W(y)) \rightarrow (y = x)   )   )$
+\end{enumerate}
+
+\section*{Answer 4}
+\begin{table}[H]
+	\centering
+	\caption{Proof of $ (p \rightarrow r) \lor (q \rightarrow r) \vdash (p \land q) \rightarrow r  $}
+	\begin{tabular}{llcll}
+	\hline 
+	\hline
+		$1$ & & $ (p \rightarrow r) \lor (q \rightarrow r)$ & \textit{premise} & \\ \cline{2-5}
+		
+		$2$ &\multicolumn{1}{|c}{} & $p \rightarrow r$ &\textit{assumption} &\multicolumn{1}{c|}{}\\ \cline{3-4}
+		 
+		$3$ &\multicolumn{1}{|c}{}&\multicolumn{1}{|c}{$p \land q$} &\multicolumn{1}{l|}{\textit{assumption}}&\multicolumn{1}{c|}{}\\ 
+		
+		$4$ &\multicolumn{1}{|c}{}&\multicolumn{1}{|c}{ $p$} &\multicolumn{1}{l|}{$\land$e $3 $}&\multicolumn{1}{c|}{}\\
+		
+		$5$ &\multicolumn{1}{|c}{}&\multicolumn{1}{|c}{ $r$} & \multicolumn{1}{l|}{$\rightarrow$e $2,4$} &\multicolumn{1}{c|}{}\\ \cline{3-4}
+		
+		$6$ &\multicolumn{1}{|c}{}& $(p \land q ) \rightarrow r$ & $\rightarrow$i $3-5$ & \multicolumn{1}{c|}{}\\ \cline{2-5}
+		
+		$7$ & & $(p \rightarrow r) \rightarrow ((p \land q) \rightarrow r)$ & $\rightarrow$i $2-6$ & \\ \cline{2-5}
+		
+	    $8$ &\multicolumn{1}{|c}{} & $q \rightarrow r$ &\textit{assumption} &\multicolumn{1}{c|}{}\\ \cline{3-4}
+		 
+		$9$ &\multicolumn{1}{|c}{}&\multicolumn{1}{|c}{$p \land q$} &\multicolumn{1}{l|}{\textit{assumption}}&\multicolumn{1}{c|}{}\\ 
+		
+		$10$ &\multicolumn{1}{|c}{}&\multicolumn{1}{|c}{ $q$} &\multicolumn{1}{l|}{$\land$e $9$}&\multicolumn{1}{c|}{}\\
+		
+		$11$ &\multicolumn{1}{|c}{}&\multicolumn{1}{|c}{ $r$} & \multicolumn{1}{l|}{$\rightarrow$e $8,10$} &\multicolumn{1}{c|}{}\\ \cline{3-4}
+		
+		$12$ &\multicolumn{1}{|c}{}& $(p \land q ) \rightarrow r$ & $\rightarrow$i $9-11$ & \multicolumn{1}{c|}{}\\ \cline{2-5}
+		
+		$13$ & & $(q \rightarrow r) \rightarrow ((p \land q) \rightarrow r)$ & $\rightarrow$i $8-12$ & \\
+		
+		$14$ & & $(p \land q) \rightarrow r$ & $\lor$e $1, 7, 13 $ & \\
+	
+	\end{tabular}
+\end{table}
+
+\section*{Answer 5}
+\begin{table}[H]
+	\centering
+	\caption{Proof of $ (\neg p \lor \neg q) \vdash (p \land q) \rightarrow r  $}
+	\begin{tabular}{lllclll}
+	\hline 
+	\hline
+		$1$ & & & $ \neg p \lor \neg q$ & \textit{premise} &  & \\ \cline{2-7}
+		
+		$2$ &\multicolumn{1}{|c}{} & & $p \land q$ &\textit{assumption} & &\multicolumn{1}{c|}{}\\ \cline{3-6}
+		 
+		$3$ &\multicolumn{1}{|c}{}  & \multicolumn{1}{|c}{} & $p$ &$\land$e $2 $ & \multicolumn{1}{l|}{} & \multicolumn{1}{c|}{} \\ 
+		
+		$4$ &\multicolumn{1}{|c}{}  & \multicolumn{1}{|c}{} & $q$ &$\land$e $2 $ & \multicolumn{1}{l|}{} & \multicolumn{1}{c|}{} \\ \cline{4-5}
+		
+	    $5$ &\multicolumn{1}{|c}{}  & \multicolumn{1}{|c}{} & \multicolumn{1}{|c}{$\neg p$} & \multicolumn{1}{l|}{\textit{assumption}} & \multicolumn{1}{l|}{} & \multicolumn{1}{c|}{} \\ 
+	    
+	    $6$ &\multicolumn{1}{|c}{}  & \multicolumn{1}{|c}{} & \multicolumn{1}{|c}{$\perp$} & \multicolumn{1}{l|}{$\neg$e $3,5$} & \multicolumn{1}{l|}{} & \multicolumn{1}{c|}{} \\ 
+	    
+	    $7$ &\multicolumn{1}{|c}{}  & \multicolumn{1}{|c}{} & \multicolumn{1}{|c}{$r$} & \multicolumn{1}{l|}{$\perp$e $6$} & \multicolumn{1}{l|}{} & \multicolumn{1}{c|}{} \\ \cline{4-5}
+	    
+	    $8$ &\multicolumn{1}{|c}{}  & \multicolumn{1}{|c}{} & $\neg p \rightarrow r$ &$\rightarrow$i $5-7$ & \multicolumn{1}{l|}{} & \multicolumn{1}{c|}{} \\ \cline{4-5}
+	    
+	    $9$ &\multicolumn{1}{|c}{}  & \multicolumn{1}{|c}{} & \multicolumn{1}{|c}{$\neg q$} & \multicolumn{1}{l|}{\textit{assumption}} & \multicolumn{1}{l|}{} & \multicolumn{1}{c|}{} \\ 
+	    
+	    $10$ &\multicolumn{1}{|c}{}  & \multicolumn{1}{|c}{} & \multicolumn{1}{|c}{$\perp$} & \multicolumn{1}{l|}{$\neg$e $4,9$} & \multicolumn{1}{l|}{} & \multicolumn{1}{c|}{} \\ 
+	    
+	    $11$ &\multicolumn{1}{|c}{}  & \multicolumn{1}{|c}{} & \multicolumn{1}{|c}{$r$} & \multicolumn{1}{l|}{$\perp$e $10$} & \multicolumn{1}{l|}{} & \multicolumn{1}{c|}{} \\ \cline{4-5}
+	    
+	    $12$ &\multicolumn{1}{|c}{}  & \multicolumn{1}{|c}{} & $\neg q \rightarrow r$ &$\rightarrow$i $9-11$ & \multicolumn{1}{l|}{} & \multicolumn{1}{c|}{} \\ \cline{3-6}
+	    
+	    $13$ &\multicolumn{1}{|c}{}  &  & $r$ &$\lor$e $1,5-7,9-11$ &  & \multicolumn{1}{c|}{} \\ \cline{2-7}
+	    
+	    $14$ & & & $(p \land q) \rightarrow r$ & $\rightarrow$i $2-13$  & &\\ 
+	
+	\end{tabular}
+\end{table}
+
+\section*{Answer 6}
+\begin{table}[H]
+	\centering
+	\caption{Proof of $ \forall x (P(x) \rightarrow (Q(x) \rightarrow R(x))), \exists x (P(x)), \forall x (\neg R(x)) \vdash \exists x (\neg Q(x))  $}
+	\begin{tabular}{lllclll}
+	\hline 
+	\hline
+		$1$ & & & $ \forall x (P(x) \rightarrow (Q(x) \rightarrow R(x)))$ & \textit{premise} &  & \\ 
+		
+		$2$ & & & $ \exists x (P(x))$ & \textit{premise} &  & \\ 
+		
+		$3$ & & & $ \forall x (\neg R(x))$ & \textit{premise} &  & \\ %\cline{2-7}
+		
+		$4$ & & & $P(c) \rightarrow (Q(c) \rightarrow R(c))$ & $\forall$e $1$ & &\multicolumn{1}{c}{}\\ \cline{3-6}
+		 
+		$5$ &\multicolumn{1}{c}{}  & \multicolumn{1}{|c}{} & $P(c) $ & \textit{assumption} & \multicolumn{1}{l|}{} & \multicolumn{1}{c}{} \\ 
+		
+		$6$ &\multicolumn{1}{c}{}  & \multicolumn{1}{|c}{} & $Q(c) \rightarrow R(c)$ &$\rightarrow$e $4,5 $ & \multicolumn{1}{l|}{} & \multicolumn{1}{c}{} \\ 
+		
+		$7$ &\multicolumn{1}{c}{}  & \multicolumn{1}{|c}{} & $\neg R(c)$ &$\forall$e $3 $ & \multicolumn{1}{l|}{} & \multicolumn{1}{c}{} \\ \cline{4-5}
+		
+	    $8$ &\multicolumn{1}{c}{}  & \multicolumn{1}{|c}{} & \multicolumn{1}{|c}{$Q(c)$} & \multicolumn{1}{l|}{\textit{assumption}} & \multicolumn{1}{l|}{} & \multicolumn{1}{c}{} \\ 
+	    
+	    $9$ &\multicolumn{1}{c}{}  & \multicolumn{1}{|c}{} & \multicolumn{1}{|c}{$R(c)$} & \multicolumn{1}{l|}{$\rightarrow$e $6,8$} & \multicolumn{1}{l|}{} & \multicolumn{1}{c}{} \\ 
+	    
+	    $10$ &\multicolumn{1}{c}{}  & \multicolumn{1}{|c}{} & \multicolumn{1}{|c}{$\perp$} & \multicolumn{1}{l|}{$\neg$e $7,9$} & \multicolumn{1}{l|}{} & \multicolumn{1}{c}{} \\ \cline{4-5}
+	    
+	    $11$ &\multicolumn{1}{c}{}  & \multicolumn{1}{|c}{} & $\neg Q(c)$ &$\neg$i $8-10$ & \multicolumn{1}{l|}{} & \multicolumn{1}{c}{} \\ 
+	    
+	    $12$ &\multicolumn{1}{c}{}  & \multicolumn{1}{|c}{} & $\exists x \neg Q(x)$ &$\exists$i $11$ & \multicolumn{1}{l|}{} & \multicolumn{1}{c}{} \\ \cline{3-6}
+	    
+	    $13$ &\multicolumn{1}{c}{}  &  & $\exists x \neg Q(x)$ &$\exists$e $2,5-12$ &  & \multicolumn{1}{c}{} \\ %\cline{2-7}
+	
+	\end{tabular}
+\end{table}
+
+\end{document}
