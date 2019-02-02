@@ -1,0 +1,128 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{float}
+\usepackage{amsmath}
+
+
+\usepackage[hmargin=3cm,vmargin=6.0cm]{geometry}
+%\topmargin=0cm
+\topmargin=-2cm
+\addtolength{\textheight}{6.5cm}
+\addtolength{\textwidth}{2.0cm}
+%\setlength{\leftmargin}{-5cm}
+\setlength{\oddsidemargin}{0.0cm}
+\setlength{\evensidemargin}{0.0cm}
+
+
+
+\begin{document}
+
+\section*{Student Information } 
+%Write your full name and id number between the colon and newline
+%Put one empty space character after colon and before newline
+Full Name : Mustafa Ozan ALPAY \\
+Id Number : 2309615 \\
+
+% Write your answers below the section tags
+\section*{Answer 1}
+\begin{enumerate}
+    \item By writing the recurrences from $1$ to $n$ we get, 
+    $$a_1 = 1$$ 
+    $$a_2 = a_1 + 2^2$$ 
+    $$a_3 = a_2 + 3^2$$  
+    $$ . . . $$ 
+    $$a_{n-1} = a_{n-2} + (n-1)^2$$ 
+    $$a_n = a_{n-1} + n^2 $$ 
+    By summing the equations, we get, 
+    $$ \sum\limits_{i=1}^{n} a_i = \sum\limits_{j=1}^{n-1} a_j + \sum\limits_{k=1}^{n} k^2 $$ 
+    
+    By rewriting the equation, 
+    
+    $$ a_n + \sum\limits_{i=1}^{n-1} a_i   = \sum\limits_{j=1}^{n-1} a_j + \sum\limits_{k=1}^{n} k^2  $$ 
+    
+    $$ a_n = \sum\limits_{k=1}^{n} k^2 $$ 
+    
+    By using the formula 
+    
+    $$ \sum\limits_{k=1}^{n} k^2 = \dfrac{n\cdot (n+1) \cdot (2n+1)}{6} $$
+    
+    we get $a_n$ as,
+    
+    $$ a_n = \dfrac{n \cdot (n+1)\cdot (2n+1)}{6} $$ 
+    
+    \item To solve this recurrence, first we need to solve the associated linear homogenous equation $a_n=2a_{n-1}$. The solutions for this equation are $a_n^{(h)} = \alpha 2^n$ where $\alpha$ is a constant. Since $F(n)=2^n$ a reasonable trial solution is $a_n^{(p)} = C \cdot n \cdot 2^n $ where C is a constant. Substituting this into the recurrence solution, we get $$  C \cdot n \cdot 2^n = 2 \cdot  C \cdot (n-1) \cdot 2^{n-1}+2^n $$ 
+    Factoring out $2^n$, we get $$  C \cdot n = C \cdot (n-1) +1 $$ 
+    The solution for this equation is $C=1$, therefore $a_n^{(p)} = n \cdot 2^n $ for our trial solution. \\
+    By Theorem 5 of the section \textit{8.2. Solving Linear Recurrence Relations} of the book, all solutions are of the form $$ a_n = 2 \cdot \alpha \cdot 2^{n-1} + n \cdot 2^n $$
+    Since we already know that $a_0 = 1$, by substituting $n=0$ we can find $\alpha$. 
+    $$ a_0 = 2 \cdot \alpha \cdot 2^{0-1} + 0 \cdot 2^0 $$
+    $$ a_0 = \alpha  = 1$$
+    Therefore our recurrence is $$ a_n =  2^n \cdot (1 + n) $$
+    
+\end{enumerate}
+
+\section*{Answer 2}
+\begin{enumerate}
+    \item \textbf{Basis Step} \\
+    $f(1) \leq g(1)$ holds, because $$f(1) = 1^2 + 15 \cdot 1 + 5 = 21$$ $$g(1)=21 \cdot 1^2 = 21$$ therefore $f(1) \leq g(1)$.
+    \item \textbf{Inductive Step} \\
+    Let's assume that $f(k) \leq g(k)$ holds for an arbitrary positive integer $k$. That is, we assume that $$ k^2 + 15k+5 \leq 21k^2 $$
+    Under this assumption, we must show that it holds for $k+1$ as well, namely $$ (k+1)^2 + 15(k+1)+5 \leq 21(k+1)^2 $$ 
+    By expanding the $(k+1)^2$ parts, we get $$ k^2 + 2k + 1 + 15k + 15 +5 \leq 21k^2 + 42k + 21 $$ 
+    By arranging the inequality, $$ k^2 + 15k +5 \leq 21k^2 + ( 40k + 5 )$$ 
+    Since $k$ is a positive integer, adding $40k+5$ to the right hand side of the inequality $ k^2 + 15k+5 \leq 21k^2 $ would not affect its truth value. 
+    \item Since we have shown that the inequality holds for $1$, and if it holds for an arbitrary integer $k$ it also holds for $k+1$, we can conclude that $f(n) \leq g(n)$ is a correct statement by mathematical induction.
+    
+\end{enumerate}
+
+\section*{Answer 3}
+
+
+
+\section*{Answer 4}
+\begin{enumerate}
+\item
+\textbf{a)} Since the initial value of $a$ is $0$, and since $a$ is incremented $2$ with every \textit{for} loop with the iterator $j$, and since the \textit{for} loop with the iterator $j$ is traversed with a sequence of integers $i, j$ such that $$ 1 \leq j \leq i \leq n $$
+we can say that the number of such sequences of integers is the number of ways to choose $2$ integers with repetition allowed. Thus, from Theorem 2 of the section \textit{6.5. Generalized Permutations and Combinations} of the book, we can say that it follows the following equation: $$a = 2 \cdot C(n+1,2)$$ 
+Similarly, since the initial value of $b$ is $0$, and since $b$ is incremented $1$ with every \textit{for} loop with the iterator $k$, and since the \textit{for} loop with the iterator $k$ is traversed with a sequence of integers $i, j, k$ such that $$ 1 \leq k \leq j \leq i \leq n $$
+we can say that the number of such sequences of integers is the number of ways to choose $3$ integers with repetition allowed. Thus, from Theorem 2 of the section \textit{6.5. Generalized Permutations and Combinations} of the book, we can say that it follows the following equation: $$b = C(n+2,3)$$ 
+By rearranging the equations, we can get the following values;
+$$ a = n \cdot (n+1) $$ $$ b = \dfrac{n \cdot (n+1) \cdot (n+2)}{6} $$ 
+\textbf{b)} If $a=b$ after the execution of the pseudocode, we can use the values that we obtained from \textit{part a} to find the value of $n$. 
+$$ a = b$$ 
+$$n \cdot (n+1)  = \dfrac{n \cdot (n+1) \cdot (n+2)}{6} $$ \\
+The solution has 3 distinct values, which are $\{-1,0,4\}$. \\
+Since the loop starts from $i = 1$, the value of $n$ must be greater than or equal to $1$. Therefore, $$ n = 4 $$
+\item 
+\textbf{a)} Distributing 10 different fruits into 3 distinguishable plates with each plate having exactly 2 fruits is of problem type \textit{Distinguishable Objects and Distinguishable Boxes}. By using the principles regarding this type from the textbook, we can say that there are $$ C(10,2) \cdot C(8,2) \cdot C(6,2)$$ which gives us $18900$ ways to distribute the given items. 
+
+\textbf{b)} Distributing 10 different fruits into 4 distinguishable plates while the plates having 1,2,3,4 fruits respectively is of problem type \textit{Distinguishable Objects and Distinguishable Boxes}. By using \textit{Theorem 4} from the section \textit{6.5. Generalized Permutations and Combinations} of the textbook, we can say that there are exactly $$ \dfrac{10!}{1! \cdot 2! \cdot 3! \cdot 4!}$$ which gives us $12600$ ways to distribute the given items. 
+
+\textbf{c)} Distributing 6 different fruits into 4 indistinguishable plates while all of the fruits being distributed is of problem type \textit{Distinguishable Objects and Indistinguishable Boxes}. By using formula below of the section \textit{6.5. Generalized Permutations and Combinations} of the textbook, the total number of ways of distributing $n$ distinguishable objects into $k$ indistinguishable boxes equals to
+$$\sum\limits_{j=1}^{k} S(n,j) = \sum\limits_{j=1}^{k} \dfrac{1}{j!} \sum\limits_{i=0}^{j-1} (-1)^i {j\choose{i}}  (j-i)^n $$
+where $S(n,j)$ are called the \textit{Stirling numbers of the second kind}.
+Therefore, we can say that there are exactly 
+$$\sum\limits_{j=1}^{4} S(6,j) = \sum\limits_{j=1}^{4} \dfrac{1}{j!} \sum\limits_{i=0}^{j-1} (-1)^i {j\choose{i}}  (j-i)^6 $$
+which gives us $187$ ways to distribute the given items. 
+
+\textbf{d)} Distributing 6 indistinguishable fruits into 4 distinguishable plates while without having the requirement of all the fruits being distributed is of problem type \textit{Indistinguishable Objects and Distinguishable Boxes}. By using formula from the section \textit{6.5. Generalized Permutations and Combinations} of the textbook, there are $C(n+k-1,k)$ ways of distributing $k$ objects into $n$ boxes. To find out the total number of ways to distribute the dragon fruits into the boxes, we must consider the following situations;
+\begin{itemize}
+    \item Distributing 6 dragon fruits into 4 plates ($k=6, n=4$)
+    \item Distributing 5 dragon fruits into 4 plates ($k=5, n=4$)
+    \item Distributing 4 dragon fruits into 4 plates ($k=4, n=4$)
+    \item Distributing 3 dragon fruits into 4 plates ($k=3, n=4$)
+    \item Distributing 2 dragon fruits into 4 plates ($k=2, n=4$)
+    \item Distributing 1 dragon fruits into 4 plates ($k=1, n=4$)
+    \item Distributing 0 dragon fruits into 4 plates ($k=0, n=4$)
+\end{itemize}
+Therefore the total number of ways to distribute the given items can be formulated as
+$$ C(9,6) + C(8,5) + C(7,4) + C(6,3) + C(5,2) + C(4,1) + C(3,0)$$ 
+which sums to $210$ different ways of distribution.
+
+
+\end{enumerate}
+
+\end{document}
+
+​
+

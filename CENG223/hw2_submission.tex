@@ -1,0 +1,236 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{float}
+\usepackage{amsmath}
+
+
+\usepackage[hmargin=3cm,vmargin=6.0cm]{geometry}
+%\topmargin=0cm
+\topmargin=-2cm
+\addtolength{\textheight}{6.5cm}
+\addtolength{\textwidth}{2.0cm}
+%\setlength{\leftmargin}{-5cm}
+\setlength{\oddsidemargin}{0.0cm}
+\setlength{\evensidemargin}{0.0cm}
+
+
+
+\begin{document}
+
+\section*{Student Information } 
+%Write your full name and id number between the colon and newline
+%Put one empty space character after colon and before newline
+Full Name : Mustafa Ozan ALPAY \\
+Id Number : 2309615 \\
+
+% Write your answers below the section tags
+\section*{Answer 1}
+Let $f: A \rightarrow B$ and $g: B \rightarrow C$. Prove the following: 
+\begin{itemize}
+\item \textbf{a)} If $C_0 \subseteq C$, show that $(g \circ f)^{-1} (C_0) = f^{-1}(g^{-1}(C_0))$.
+\begin{enumerate}
+\item Let's assume that $(g \circ f)^{-1}(C_0) = f^{-1} \circ (g^{-1} (C_0))$ holds for any $C_0$ that is inside $C$. 
+
+
+\begin{table}[H]
+    \begin{tabular}{p{1.4cm}lclll}	
+    & $( (g \circ f)^{-1} \circ (g \circ f)) (C_0)$ & $=$ & $ ((f^{-1} \circ g^{-1}) \circ (g \circ f) ) (C_0)  $ &  \\
+    & & $=$ & $ (((f^{-1} \circ g^{-1}) \circ g) \circ f)  (C_0)  $ & \\
+    & & $=$ & $ ((f^{-1} \circ (g^{-1} \circ g)) \circ f)  (C_0)  $ & \\
+    & & $=$ & $ ((f^{-1} \circ I_B) \circ f)  (C_0)  $ & \\
+    & & $=$ & $ (f^{-1} \circ  f)  (C_0)  $ & \\
+    & & $=$ & $ I_A (C_0)  $ & \\
+    & & $=$ & $ C_0  $ & \\
+    \end{tabular}
+\end{table}
+\item Similarly,
+\begin{table}[H]
+    \begin{tabular}{p{1.4cm}ccll}	
+    & $( (g \circ f) \circ (g \circ f)^{-1}) (C_0)$ & $=$ & $ ( (g \circ f) \circ (f^{-1} \circ g^{-1}) ) (C_0)  $ &  \\
+    & & $=$ & $ (((g \circ f) \circ f^{-1}) \circ g^{-1})  (C_0)  $ & \\
+    & & $=$ & $ (g \circ (f \circ f^{-1})) \circ g^{-1})  (C_0)  $ & \\
+    & & $=$ & $ ((g^{-1} \circ I_A) \circ g)  (C_0)  $ & \\
+    & & $=$ & $ (g^{-1} \circ  g)  (C_0)  $ & \\
+    & & $=$ & $ I_B (C_0)  $ & \\
+    & & $=$ & $ C_0  $ & \\
+    \end{tabular}
+\end{table}
+\item
+Thus,
+\begin{enumerate}
+    \item $( (g \circ f)^{-1} \circ (g \circ f)) (C_0) = C_0$ and
+    \item $( (g \circ f) \circ (g \circ f)^{-1}) (C_0) = C_0$
+\end{enumerate} 
+
+proves that our assumption is correct. \\
+\end{enumerate}
+\item
+\textbf{b)} If $g \circ f$ is injective, what can be said about the injectivity of $f$ and $g$?
+\begin{enumerate}
+\item It is known that $g \circ f$ is injective. 
+\item Let us assume, $\exists x_1 , x_2 \in A$, which satisfies $f(x_1) = f(x_2)$.
+\item By using our assumption, we can say that $ (g \circ f)(x_1) = g(f(x_1)) = g(f(x_2)) = (g \circ f)(x_2)$.
+\item Since $g \circ f$ is injective, previous statement implies that $x_1 = x_2$. Therefore $f$ is injective. 
+\item However we cannot say anything regarding the injectivity of $g$.
+\end{enumerate} 
+\item
+\textbf{c)} If $g \circ f$ is surjective, what can be said about the surjectivity of $f$ and $g$?
+\begin{enumerate}
+
+\item It is known that $g \circ f$ is surjective. 
+\item Let $z \in C$.
+\item Since $g \circ f$ is surjective, $\exists x \in A$ such that $(g \circ f)(x) = g(f(x)) = z$
+\item Let $f(x) = y$ and $y \in B$, then $g(y) = z$.
+\item Therefore $g$ is surjective.
+\item However we cannot say anything regarding the surjectivity of $f$.
+
+\end{enumerate}
+\end{itemize}
+
+
+\section*{Answer 2}
+
+\begin{itemize}
+    \item  \textbf{a)} Show that if $f$ has a left inverse, $f$ is injective; and if $f$ has a right inverse, $f$ is surjective.
+    \begin{enumerate}
+        \item 
+        \begin{enumerate}
+            \item 
+        Let us assume that $f$ is injective.
+        \item If we choose $x_0 \in A$, the range of $f^{-1}$ would have exactly one element from $B$. 
+        \item Let us select an arbitrary $b \in f(A)$. In that case, $g(b)$ would be the only element of $f^{-1}$, while if $b \notin f(A)$ , the set $g(b)=x_0$. 
+        \item Since $\forall x \in A \rightarrow \exists f(x) \in f(A)$, we can summarize this as $\forall x \in A,  g(f(x))=x$ 
+        \item Therefore, if $g$ is a left inverse for $f$, $f$ must be injective.
+        \end{enumerate}
+        \item 
+        \begin{enumerate}
+            \item Let us have an arbitrary $b \in B$. 
+            \item We would like to find such an $a \in A$ such that $f(a)=b$. 
+            \item In order to do so, let us set $a=g(b)$ and that the right inverse condition implies $f(a)=f(g(b))=b$ as desired.
+            \item Therefore, $f$ is surjective.
+        \end{enumerate}
+    \end{enumerate}
+    
+    
+    
+    \item  \textbf{b)} Can a function have more than one left inverse? What about right inverses?
+    \begin{enumerate}
+        \item A function can have more than one left inverse.
+        \begin{enumerate}
+        \item Let us set an arbitrary function as following;
+        \subitem $f(x)=x^2$
+        \item The inverse of $f$ can take two different values, which are 
+        \subitem $f^{-1}(x)=+\sqrt x$ and
+        \subitem $f^{-1}(x)=-\sqrt x$
+        \item Therefore it is possible to have more than one left inverse.
+        \end{enumerate}
+        \item A function can also have more than one right inverse.
+        \begin{enumerate}
+        \item Let us set an arbitrary function that holds the followings;
+        \subitem $f(1)=f(2)=1$
+        \item The inverse of $f$ can take two different values, which are 
+        \subitem $f^{-1}(1)=2$ and
+        \subitem $f^{-1}(1)=1$
+        \item Therefore it is possible to have more than one right inverse.
+        \end{enumerate}
+    \end{enumerate}
+    \item  \textbf{c)} Show that if $f$ has both a left inverse $g$ and a right inverse $h$, then $f$ is bijective and $g=h=f^{-1}$.
+    \begin{enumerate}
+        \item Since $g$ is a left inverse, we can state that
+        \subitem $(g \circ f) (x) = x$
+        \item By using the proof that on the part (a) of question 1, we can rewrite the second equation as following,
+        \subitem $(f \circ g)^{-1}(x)=x$
+        \subitem $g^{-1} \circ ( f^{-1}(x))=x$
+        \subitem $g\circ g^{-1} \circ ( f^{-1}(x))=g(x)$
+        \item Since $g \circ g^{-1} = I_B$,  
+        \subitem $ f^{-1}(x)=g(x)$
+        
+        \item Likewise, since $h$ is a right inverse, we can state that
+        \subitem $(f \circ h)(x)=x$
+        \item By using the proof that on the part (a) of question 1, we can rewrite the second equation as following,
+        \subitem $(f \circ h)^{-1}(x)=x$
+        \subitem $h^{-1} \circ ( f^{-1}(x))=x$
+        \subitem $h\circ h^{-1} \circ ( f^{-1}(x))=h(x)$
+        \item Since $h \circ h^{-1} = I_B$,  
+        \subitem $ f^{-1}(x)=h(x)$
+        \item By combining the results on $3^{rd}$ and $6^{th}$ lines, we can say that
+        \subitem $ g(x) = f^{-1}(x)=h(x)$
+        
+    \end{enumerate}
+    
+\end{itemize}
+
+\section*{Answer 3}
+
+\section*{Answer 4}
+
+\section*{Answer 5}
+\begin{itemize}
+    \item The definition of $\Theta$ is, a function $f$ is $\Theta(g)$ if and only if there are constants $C_1$ and $C_2$ such that $C_1g(n) \leq f(n) \leq C_2g(n)$.
+    \item If $n \ln n=\Theta(k)$, we can rewrite this as the following;
+    \subitem  $C_1 k \leq n \ln n \leq C_2 k$
+    \item Since $\ln k \neq 0$, dividing this inequality by $\ln k$ is possible.
+    \subitem $C_1 \dfrac{k}{\ln k} \leq n \dfrac{\ln n}{\ln k} \leq C_2 \dfrac{k}{\ln k}$
+    \item By applying the limit rules,
+    \subitem $\lim_{k\to\infty} \dfrac{\ln n}{\ln k} = 0$
+    \item Therefore we can keep $C_1$ as the lower bound to show that $n=\Theta (\dfrac{k}{\ln k})$.
+    \item By using $C_1 k \leq n \ln n \leq C_2 k$ again, we can say that 
+    \subitem $C_1 k \leq n \ln n < n^2 $ for any large $n$. 
+    \item By taking the natural logarithm of each side,
+    \subitem $\ln C_1 + \ln k  < 2 \ln n $
+    \item By rearranging the inequality,
+    \subitem $\dfrac{\ln k}{\ln n} < 2 - \dfrac{\ln C_1}{\ln n} < 2 $ for any large n
+    \item If we rewrite $n$ and use the equations that we derived above, we can get
+    \subitem $n=n \dfrac{\ln k}{\ln n}\dfrac{\ln n}{\ln k} < 2 C_2 \dfrac{k}{\ln k}$
+    \item Finally, by combining our calculations, we can say that,
+    \subitem $C_1 \dfrac{k}{\ln k} \leq n \leq 2 C_2 \dfrac{k}{\ln k}$ for large $k$ values.
+    \item By the definition of $\Theta$, we can conclude that $n= \Theta (\dfrac{k}{\ln k})$
+    
+    
+    
+    
+\end{itemize}
+
+
+\section*{Answer 6}
+
+\textbf{a)} Show that 6 and 28 are perfect.
+\begin{itemize}
+    \item The set of positive divisors of $6$ are $ \{1,2,3,6\} $. The sum of all its positive divisors excluding itself is $1+2+3=6$, thus making it a perfect number. 
+    \item The set of positive divisors of $28$ are $ \{1,2,4,7,14,28\} $. The sum of all its positive divisors excluding itself is $1+2+4+7+14=28$, thus making it a perfect number. 
+\end{itemize}
+
+\textbf{b)} Show that $2^{p-1}(2^p-1)$ is a perfect number when $2^p-1$ is prime.
+\begin{itemize}
+    \item Since $2^p-1$ is prime, the prime divisors of $2^{p-1}(2^p-1)$ would be only $2$ and $2^p-1$. By using this information, we can denote the set of all positive divisors of $2^{p-1}(2^p-1)$ as $\{1,2,....,2^{p-1},1*(2^p-1),2*(2^p-1),....,2^{p-1}*(2^p-1)\}$
+    \item To sum all the positive divisors, we can write the following;
+    \subitem  $$\sum\limits_{n=0}^{p-1}2^n+ (2^p-1)\sum\limits_{n=0}^{p-1} 2^n $$ 
+    \item Since the summation operator has associativity, we can rearrange the equation as;
+     \subitem $$=(2^p)*\sum\limits_{n=0}^{p-1} 2^n$$
+     \item By using the formula
+     \subitem $$=\sum\limits_{n=0}^{x} 2^n = 2^{x+1}-1$$
+     \item We can rearrange the equation;
+     \subitem $$=(2^p)*\sum\limits_{n=0}^{p-1} 2^n = (2^p)*(2^p-1)$$
+     \item Since this summation includes all positive divisors, we need to subtract the actual number from it.
+     \subitem $(2^p)*(2^p-1) - (2^{p-1})*(2^p-1) = (2^{p-1})*(2^p-1)$
+    \item Therefore, from this formula, we can see that the sum of all positive divisors excluding the number itself is equal to the number if and only if $2^p-1$ is prime and the number is $2^{p-1}(2^p-1)$.
+\end{itemize}
+
+
+\section*{Answer 7}
+\textbf{a)} Given $x \equiv c_1 $(mod $m$) and $x \equiv c_2 $(mod $n$) where $c_1, c_2, m, n$ are integers with $m > 0, n > 0$ show that the solution $x$ exists if and only if gcd($m,n$)$\vert c_1-c_2$.
+\begin{itemize}
+    \item Let us say that the system has a solution $x$. 
+    \item We can say that $t=$gcd($m,n$) exists.
+    \item By using the properties of the modulo, we can say that $x-c_1 = m . \alpha$, which is also a multiple of $t$.
+    \item Similarly, for the second statement, we can say that $x-c_2 = n . \beta$, which is again a multiple of $t$.
+    \item Therefore, $c_1-c_2 = (x-c_2)-(x-c_1)$ is also a multiple of $t$.
+    \item Thus, $t \vert (c_1-c_2)$, which is gcd($m,n$)$\vert c_1-c_2$.
+\end{itemize}
+
+
+
+\end{document}
+
+​
+
