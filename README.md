@@ -6,5 +6,5 @@
 <p>Take Home Exam submissions (written in ANSI C), and several testers (written in Python 2.7)</p>
 <h2><a href="https://github.com/frozsgy/METU/tree/master/CENG213">CENG 213 - Data Structures</a></h2>
 <p>Take Home Exam submissions (written in ANSI C++)</p>
-<h2><a href="https://github.com/frozsgy/METU/tree/master/CENG223">CENG 223 - Discrete Computational Structures</a></h2>
+<h2><a href="https://github.com/frozsgy/ceng223-hw">CENG 223 - Discrete Computational Structures</a></h2>
 <p>Homework submissions (in LaTeX)</p>
