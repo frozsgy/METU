@@ -8,3 +8,7 @@
 <p>Take Home Exam submissions (written in ANSI C++)</p>
 <h2><a href="https://github.com/frozsgy/ceng223-hw">CENG 223 - Discrete Computational Structures</a></h2>
 <p>Homework submissions (in LaTeX)</p>
+<h2><a href="https://github.com/frozsgy/METU/tree/master/CENG222">CENG 222 - Statistical Methods for Computer Engineering</a></h2>
+<p>Homework submissions (PDF files and Matlab codes)</p>
+<h2><a href="https://github.com/frozsgy/METU/tree/master/CENG242">CENG 242 - Programming Language Concepts</a></h2>
+<p>Take Home Exam submissions (Haskell, C++ and Prolog)</p>
