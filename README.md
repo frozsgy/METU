@@ -10,5 +10,7 @@
 <p>Homework submissions (in LaTeX)</p>
 <h2><a href="https://github.com/frozsgy/METU/tree/master/CENG222">CENG 222 - Statistical Methods for Computer Engineering</a></h2>
 <p>Homework submissions (PDF files and Matlab codes)</p>
+<h2><a href="https://github.com/frozsgy/METU/tree/master/CENG232">CENG 232 - Logic Design</a></h2>
+<p>Lab submissions (Logisim and Verilog)</p>
 <h2><a href="https://github.com/frozsgy/METU/tree/master/CENG242">CENG 242 - Programming Language Concepts</a></h2>
 <p>Take Home Exam submissions (Haskell, C++ and Prolog)</p>
