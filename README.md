@@ -1,16 +1,26 @@
-<h1>METU Computer Engineering Programme</h1>
-<p>This repository includes all homeworks and projects that was made by myself during my time at METU Computer Engineering Programme.</p>
-<h2><a href="https://github.com/frozsgy/METU/tree/master/CENG111">CENG 111 - Introduction to Computer Engineering</a></h2>
-<p>Take Home Exam submissions, several testers and data producers written in Python 2.7</p>
-<h2><a href="https://github.com/frozsgy/METU/tree/master/CENG140">CENG 140 - C Programming</a></h2>
-<p>Take Home Exam submissions (written in ANSI C), and several testers (written in Python 2.7)</p>
-<h2><a href="https://github.com/frozsgy/METU/tree/master/CENG213">CENG 213 - Data Structures</a></h2>
-<p>Take Home Exam submissions (written in ANSI C++)</p>
-<h2><a href="https://github.com/frozsgy/ceng223-hw">CENG 223 - Discrete Computational Structures</a></h2>
-<p>Homework submissions (in LaTeX)</p>
-<h2><a href="https://github.com/frozsgy/METU/tree/master/CENG222">CENG 222 - Statistical Methods for Computer Engineering</a></h2>
-<p>Homework submissions (PDF files and Matlab codes)</p>
-<h2><a href="https://github.com/frozsgy/METU/tree/master/CENG232">CENG 232 - Logic Design</a></h2>
-<p>Lab submissions (Logisim and Verilog)</p>
-<h2><a href="https://github.com/frozsgy/METU/tree/master/CENG242">CENG 242 - Programming Language Concepts</a></h2>
-<p>Take Home Exam submissions (Haskell, C++ and Prolog)</p>
+# METU Computer Engineering Programme
+This repository includes all homeworks and projects that was made by myself during my education at METU Computer Engineering Programme.
+
+## [CENG 111 - Introduction to Computer Engineering](https://github.com/frozsgy/METU/tree/master/CENG111)
+Take Home Exam submissions, several testers and data producers written in Python 2.7
+
+## [CENG 140 - C Programming](https://github.com/frozsgy/METU/tree/master/CENG140)
+Take Home Exam submissions (written in ANSI C), and several testers (written in Python 2.7)
+
+## [CENG 213 - Data Structures](https://github.com/frozsgy/METU/tree/master/CENG213)
+Take Home Exam submissions (written in ANSI C++)
+
+## [CENG 223 - Discrete Computational Structures](https://github.com/frozsgy/ceng223-hw)
+Homework submissions (in LaTeX)
+
+## [CENG 222 - Statistical Methods for Computer Engineering](https://github.com/frozsgy/METU/tree/master/CENG222)
+Homework submissions (PDF files and Matlab codes)
+
+## [CENG 232 - Logic Design](https://github.com/frozsgy/METU/tree/master/CENG232)
+Lab submissions (Logisim and Verilog)
+
+## [CENG 242 - Programming Language Concepts](https://github.com/frozsgy/METU/tree/master/CENG242)
+Take Home Exam submissions (Haskell, C++ and Prolog)
+
+## [CENG331 - Computer Organization](https://github.com/frozsgy/METU/tree/master/CENG331)
+Lab prelim submissions (Mainly reverse engineering & assembly work)
