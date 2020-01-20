@@ -1,0 +1,17 @@
+
+--------------------------------------------------------------
+*** Q5 ***
+author_id	author_name
+158	Sue Donaldson
+278	Sureyyya Evren
+4705	Pinar Ozbek
+4884	Bulent Kilic
+11151	Will Kymlicka
+14187	Rengin Isik
+29350	Esra Tuncer
+31075	Berkan M. Simsek
+32291	Nicholas Wapshott
+32470	Vedat Orfi Bengu
+35933	Muhsine Itir Ozgen
+
+--------------------------------------------------------------

@@ -23,4 +23,7 @@ Lab submissions (Logisim and Verilog)
 Take Home Exam submissions (Haskell, C++ and Prolog)
 
 ## [CENG331 - Computer Organization](https://github.com/frozsgy/METU/tree/master/CENG331)
-Lab prelim submissions (Mainly reverse engineering & assembly work)
+Lab prelim & assignment submissions (Mainly reverse engineering & assembly work)
+
+## [CENG351 - Data Management and File Structures](https://github.com/frozsgy/METU/tree/master/CENG351)
+Programming Assignment submissions and some testers (Java & SQL)

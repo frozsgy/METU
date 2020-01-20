@@ -1,0 +1,60 @@
+####################################################################
+#     Mustafa Ozan ALPAY                                           #
+#     e2309615                                                     #
+####################################################################
+#     In the style of CS:APP Book - Page 403                       #
+####################################################################
+
+# Execution begins at address 0
+    .pos 0
+    irmovq stack, %rsp      # Set up stack pointer
+    call main               # Execute main program
+    halt                    # Terminate program
+
+.align 8
+# Source block
+src:
+    .quad 0x00a
+    .quad 0x0b0
+    .quad 0xc00
+# Destination block
+dest:
+    .quad 0x111
+    .quad 0x222
+    .quad 0x333
+
+
+main:
+    irmovq src, %rdi        # Move src to the register
+    irmovq dest, %rsi       # Move dest to the register
+    irmovq $3, %rdx         # Move 3 as the length to the register
+    call copy               # Call copy_block
+    ret
+
+# long copy_block(long *src, long *dest, long len)
+copy:
+    irmovq $8,%r8           # Constant 8 for quad size
+    irmovq $-1,%r11         # Constant -1 for len--
+    xorq %rax,%rax          # sum = 0
+    andq %rdx,%rdx          # Set CC according to length
+    jmp    test             # Goto test
+
+loop:
+    mrmovq (%rdi),%r9       # Copy current element to r9
+    xorq %r9,%rax           # XOR to sum
+    rmmovq %r9,(%rsi)       # Copy current element to rsi
+    rrmovq %r8,%r10         # Copy 8 from %r8
+    addq %rdi,%r10          # Add 8 to %rdi, to get the next pointer
+    rrmovq %r10,%rdi        # Move the next element to %rdi
+    rrmovq %r8,%r10         # Copy 8 from %r8
+    addq %rsi,%r10          # Add 8 to %rsi, to get the next pointer
+    rrmovq %r10,%rsi        # Move the next element to %rsi
+    addq %r11,%rdx          # len--
+
+test:
+    jne    loop             # Stop when 0
+    ret                     # Return
+
+# Stack starts here and grows to lower addresses
+    .pos 0x420
+stack:

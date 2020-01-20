@@ -1,0 +1,52 @@
+####################################################################
+#     Mustafa Ozan ALPAY                                           #
+#     e2309615                                                     #
+####################################################################
+#     In the style of CS:APP Book - Page 518                       #
+####################################################################
+
+# Execution begins at address 0
+    .pos 0
+    irmovq stack, %rsp      # Set up stack pointer
+    call main               # Execute main program
+    halt                    # Terminate program
+
+# Sample linked list
+    .align 8
+ele1:
+    .quad 0x00a
+    .quad ele2
+ele2:
+    .quad 0x0b0
+    .quad ele3
+ele3:
+    .quad 0xc00
+    .quad 0
+
+
+main:
+    irmovq ele1, %rdi       # Move the first element to the register
+    call sum                # rsum_list(ele1)
+    ret
+
+# long rsum_list(list_ptr ls)
+# current element in %rdi
+sum:
+    irmovq $8,%r8           # Constant 8 for quad size
+    xorq %rax,%rax          # sum = 0
+    andq %rdi,%rdi          # Set CC
+    je return               # If current element is null, return
+    pushq %rbx              # Save callee-saved register
+    mrmovq (%rdi),%rbx      # Get *start
+    addq %rdi,%r8           # Get the address of the next element in r8
+    mrmovq (%r8),%rdi       # Push the next element to rdi
+    call sum                # Recursive call
+    addq %rbx,%rax          # Sum return value to current element
+    popq %rbx               # Restore callee-saved register
+
+return:
+    ret
+
+# Stack starts here and grows to lower addresses
+    .pos 0x420
+stack:

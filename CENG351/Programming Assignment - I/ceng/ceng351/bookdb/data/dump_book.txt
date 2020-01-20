@@ -1,0 +1,10 @@
+9786052116685	Kirk Bela	34	2018	408	Roman	5
+9786059389068	Zoopolis	34	2016	358	Politika/Arastirma	3
+9786059389204	Universite ve Otesi - Genc Yetiskinler Icin Hayat Becerileri	34	2015	214	Egitim	3
+9786059389396	Leopold'un Sabunu	34	2017	312	Roman	2
+9786059389457	Keynes Hayek-Modern Ekonomiyi Tanimlayan Catisma	34	2017	328	Is Ekonomi - Hukuk	4.5
+9786059389754	Viyana Nokta	34	2017	152	Turk Oyku	3
+9789944989282	Viyana Nokta	30	2007	150	Roman	4.5
+9789752105058	Koskteki Esrar	1442	2004	288	Roman	4
+9789752110588	Hercule'un On Iki Gorevi	1442	2009	336	Dunya Oyku	4
+9780008262396	4.50 from Paddington	897	2018	122	Dilbilimi/Etimoloji	0

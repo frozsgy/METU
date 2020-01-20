@@ -1,0 +1,221 @@
+####################################################################
+#     Mustafa Ozan ALPAY                                           #
+#     e2309615                                                     #
+####################################################################
+#     In the style of CS:APP Book - Section 5.8                    #
+####################################################################
+#                                                                  #
+#      I first added the iaddq instruction, because it saves       #
+#      a lot of instruction counts. In addition to adding          #
+#      iaddq instruction, with my edits of this file, I aimed      #
+#      to unroll the loop with a factor of 8.                      #
+#                                                                  #
+#      The reasons I used unrolling factor as 8 were;              #
+#      - 64 can be divided to 8 nicely                             #
+#      - There are enough registers to handle 8 items in 2 loops   #
+#      - 8 can be halved 4 times, which makes it a good number     #
+#      for a binary search-like approach (which I used)            #
+#                                                                  #
+#      The first loop checks if there are more than 8 elements     #
+#      in the source. In that case the labels U42x run and copy    #
+#      the first 8 elements.                                       #
+#                                                                  #
+#      Then the check happens again, until there are less than     #
+#      8 elements left. Afterwards, the Remainder block gets       #
+#      executed. This block checks if there are more than 4        #
+#      elements in the list. If there are, then the labels         #
+#      U44x run and copy the first 4 elements. Afterwards the      #
+#      Remainder2 block checks if there are more than 2 elements   #
+#      left. Similarly, in the case of more than 2 elements, the   #
+#      labels U46x gets executed. Afterwards, we end up with 1 or  #
+#      less elements. The final check, Remainder1 and U481 gets    #
+#      executed accordingly.                                       #
+#                                                                  #
+#      With this binary-search like approach, I believe I was      #
+#      optimize the code quite nice. I also commented every        #
+#      instruction to make it easier to follow.                    #
+#                                                                  #
+####################################################################
+
+#/* $begin ncopy-ys */
+##################################################################
+# ncopy.ys - Copy a src block of len words to dst.
+# Return the number of positive words (>0) contained in src.
+#
+# Include your name and ID here.
+#
+# Describe how and why you modified the baseline code.
+#
+##################################################################
+# Do not modify this portion
+# Function prologue.
+# %rdi = src, %rsi = dst, %rdx = len
+ncopy:
+
+##################################################################
+# You can modify this portion
+	# Loop header
+	xorq %rax,%rax		# count = 0;
+
+Loop:
+	iaddq $-8,%rdx		# subtract 8 for unrolling
+	jl RemainderPrep	# We have less than 8 elements remaining 
+
+U421:
+	mrmovq (%rdi), %r8		# first element of src
+	mrmovq 8(%rdi), %r9		# second element of src
+	rmmovq %r8, (%rsi)		# move first element to dst
+	andq %r8, %r8			# val <= 0?
+	jle U422				# not positive
+	iaddq $1, %rax			# add 1 to result
+
+U422:
+	mrmovq 16(%rdi), %r10	# third element of src
+	mrmovq 24(%rdi), %r12	# fourth element of src
+	rmmovq %r9, 8(%rsi)		# move second element to dst
+	andq %r9, %r9			# val <= 0?
+	jle U423				# not positive
+	iaddq $1, %rax			# add 1 to result
+
+U423:
+	mrmovq 32(%rdi), %r11	# fifth element of src
+	mrmovq 40(%rdi), %r8	# sixth element of src
+	rmmovq %r10, 16(%rsi)	# move third element to dst
+	andq %r10, %r10			# val <= 0?
+	jle U424				# not positive
+	iaddq $1, %rax			# add 1 to result
+
+U424:
+	mrmovq 48(%rdi), %r9	# seventh element of src
+	mrmovq 56(%rdi), %r13	# eigth element of src
+	rmmovq %r12, 24(%rsi)	# move fourth element to dst
+	andq %r12, %r12			# val <= 0?
+	jle U425				# not positive
+	iaddq $1, %rax			# add 1 to result
+
+U425:
+	rmmovq %r11, 32(%rsi)	# move fifth element to dst
+	andq %r11, %r11			# val <= 0?
+	jle U426				# not positive
+	iaddq $1, %rax			# add 1 to result
+
+U426:
+	rmmovq %r8, 40(%rsi)	# move sixth element to dst
+	andq %r8, %r8			# val <= 0?
+	jle U427				# not positive
+	iaddq $1, %rax			# add 1 to result
+
+U427:
+	rmmovq %r9, 48(%rsi)	# move seventh element to dst
+	andq %r9, %r9			# val <= 0?
+	jle U428				# not positive
+	iaddq $1, %rax			# add 1 to result
+
+U428:
+	rmmovq %r13, 56(%rsi)	# move eigth element to dst
+	andq %r13, %r13			# val <= 0?
+	jle U429				# not positive
+	iaddq $1, %rax			# add 1 to result
+
+U429:
+	iaddq $64, %rdi			# move src to the next iteration
+	iaddq $64, %rsi			# move dst to the next iteration
+	jmp Loop				# next iteration
+
+RemainderPrep:
+	iaddq $4, %rdx			# Restore item count
+	jl Remainder2Prep		# We have less than 4 elements remaining 
+	jmp U441				# We have more than 3 elements remaining
+
+Remainder:
+	iaddq $-4,%rdx		# subtract 4 for unrolling
+	jl Remainder2Prep	# We have less than 4 elements remaining 
+
+U441:
+	mrmovq (%rdi), %r8		# first element of src
+	mrmovq 8(%rdi), %r9		# second element of src
+	rmmovq %r8, (%rsi)		# move first element to dst
+	andq %r8, %r8			# val <= 0?
+	jle U442				# not positive
+	iaddq $1, %rax			# add 1 to result
+
+U442:
+	mrmovq 16(%rdi), %r10	# third element of src
+	mrmovq 24(%rdi), %r11	# fourth element of src
+	rmmovq %r9, 8(%rsi)		# move second element to dst
+	andq %r9, %r9			# val <= 0?
+	jle U443				# not positive
+	iaddq $1, %rax			# add 1 to result
+
+U443:
+	rmmovq %r10, 16(%rsi)	# move third element to dst
+	andq %r10, %r10			# val <= 0?
+	jle U444				# not positive
+	iaddq $1, %rax			# add 1 to result
+
+U444:
+	rmmovq %r11, 24(%rsi)	# move fourth element to dst
+	andq %r11, %r11			# val <= 0?
+	jle U445				# not positive
+	iaddq $1, %rax			# add 1 to result
+
+U445:
+	iaddq $32, %rdi			# move src to the next iteration
+	iaddq $32, %rsi			# move dst to the next iteration
+	jmp Remainder2
+
+Remainder2Prep:
+	iaddq $2, %rdx			# Restore item count
+	jl Remainder1Prep		# We have less than 2 elements remaining 
+	jmp U461				# We have more than 1 element  remaining
+
+Remainder2:
+	iaddq $-2,%rdx		# subtract 2 for unrolling
+	jl Remainder1Prep	# We have less than 2 elements remaining 
+
+U461:
+	mrmovq (%rdi), %r8		# first element of src
+	mrmovq 8(%rdi), %r9		# second element of src
+	rmmovq %r8, (%rsi)		# move first element to dst
+	andq %r8, %r8			# val <= 0?
+	jle U462				# not positive
+	iaddq $1, %rax			# add 1 to result
+
+U462:
+	rmmovq %r9, 8(%rsi)		# move second element to dst
+	andq %r9, %r9			# val <= 0?
+	jle U463				# not positive
+	iaddq $1, %rax			# add 1 to result
+
+U463:
+	iaddq $16, %rdi			# move src to the next iteration
+	iaddq $16, %rsi			# move dst to the next iteration
+	jmp Remainder1
+
+Remainder1Prep:
+	iaddq $1, %rdx			# Restore item count
+	jl Done					# We have less than 1 elements remaining 
+	jmp U481				# We have exactly 1 element remaining
+
+Remainder1:
+	iaddq $-1,%rdx		# subtract 1 for unrolling
+	jl Done				# We have less than 1 elements remaining 
+
+U481:
+	mrmovq (%rdi), %r8		# first element of src
+	rmmovq %r8, (%rsi)		# move first element to dst
+	andq %r8, %r8			# val <= 0?
+	jle Done				# not positive
+	iaddq $1, %rax			# add 1 to result
+
+
+
+##################################################################
+# Do not modify the following section of code
+# Function epilogue.
+Done:
+	ret
+##################################################################
+# Keep the following label at the end of your function
+End:
+#/* $end ncopy-ys */
