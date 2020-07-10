@@ -1,0 +1,106 @@
+Person (0,lp,0,9,90) made a request
+Elevator (Moving-up,0,0,0->)
+Person (0,lp,0,9,90) entered the elevator
+Elevator (Moving-up,90,1,0->9)
+Person (1,hp,0,8,80) made a request
+Elevator (Moving-up,90,1,0->9)
+Person (2,hp,2,6,85) made a request
+Elevator (Moving-up,90,1,0->2,9)
+Person (3,lp,1,3,70) made a request
+Elevator (Moving-up,90,1,0->1,2,9)
+Elevator (Moving-up,90,1,1->2,9)
+Person (3,lp,1,3,70) entered the elevator
+Elevator (Moving-up,160,2,1->2,3,9)
+Elevator (Moving-up,160,2,2->3,9)
+Elevator (Moving-up,160,2,3->9)
+Person (3,lp,1,3,70) has left the elevator
+Elevator (Moving-up,90,1,3->9)
+Elevator (Moving-up,90,1,4->9)
+Elevator (Moving-up,90,1,5->9)
+Elevator (Moving-up,90,1,6->9)
+Elevator (Moving-up,90,1,7->9)
+Elevator (Moving-up,90,1,8->9)
+Elevator (Idle,90,1,9->)
+Person (5,lp,7,2,65) made a request
+Elevator (Moving-down,90,1,9->7)
+Person (4,hp,8,0,75) made a request
+Elevator (Moving-down,90,1,9->8,7)
+Person (0,lp,0,9,90) has left the elevator
+Elevator (Moving-down,0,0,9->8,7)
+Person (6,lp,7,1,60) made a request
+Elevator (Moving-down,0,0,9->8,7)
+Person (7,hp,9,3,100) made a request
+Elevator (Moving-down,0,0,9->8,7)
+Person (7,hp,9,3,100) entered the elevator
+Elevator (Moving-down,100,1,9->8,7,3)
+Elevator (Moving-down,100,1,8->7,3)
+Elevator (Moving-down,100,1,7->3)
+Person (6,lp,7,1,60) entered the elevator
+Elevator (Moving-down,160,2,7->3,1)
+Elevator (Moving-down,160,2,6->3,1)
+Elevator (Moving-down,160,2,5->3,1)
+Elevator (Moving-down,160,2,4->3,1)
+Elevator (Moving-down,160,2,3->1)
+Person (7,hp,9,3,100) has left the elevator
+Elevator (Moving-down,60,1,3->1)
+Elevator (Moving-down,60,1,2->1)
+Elevator (Idle,60,1,1->)
+Person (1,hp,0,8,80) made a request
+Elevator (Moving-down,60,1,1->0)
+Person (6,lp,7,1,60) has left the elevator
+Elevator (Moving-down,0,0,1->0)
+Elevator (Idle,0,0,0->)
+Person (4,hp,8,0,75) made a request
+Elevator (Moving-up,0,0,0->8)
+Person (2,hp,2,6,85) made a request
+Elevator (Moving-up,0,0,0->2,8)
+Person (1,hp,0,8,80) made a request
+Elevator (Moving-up,0,0,0->2,8)
+Person (1,hp,0,8,80) entered the elevator
+Elevator (Moving-up,80,1,0->2,8)
+Elevator (Moving-up,80,1,1->2,8)
+Elevator (Moving-up,80,1,2->8)
+Elevator (Moving-up,80,1,3->8)
+Elevator (Moving-up,80,1,4->8)
+Elevator (Moving-up,80,1,5->8)
+Elevator (Moving-up,80,1,6->8)
+Elevator (Moving-up,80,1,7->8)
+Elevator (Idle,80,1,8->)
+Person (5,lp,7,2,65) made a request
+Elevator (Moving-down,80,1,8->7)
+Person (1,hp,0,8,80) has left the elevator
+Elevator (Moving-down,0,0,8->7)
+Person (4,hp,8,0,75) made a request
+Elevator (Moving-down,0,0,8->7)
+Person (4,hp,8,0,75) entered the elevator
+Elevator (Moving-down,75,1,8->7,0)
+Elevator (Moving-down,75,1,7->0)
+Person (5,lp,7,2,65) entered the elevator
+Elevator (Moving-down,140,2,7->2,0)
+Elevator (Moving-down,140,2,6->2,0)
+Elevator (Moving-down,140,2,5->2,0)
+Elevator (Moving-down,140,2,4->2,0)
+Elevator (Moving-down,140,2,3->2,0)
+Elevator (Moving-down,140,2,2->0)
+Person (5,lp,7,2,65) has left the elevator
+Elevator (Moving-down,75,1,2->0)
+Elevator (Moving-down,75,1,1->0)
+Elevator (Idle,75,1,0->)
+Person (2,hp,2,6,85) made a request
+Elevator (Moving-up,75,1,0->2)
+Person (4,hp,8,0,75) has left the elevator
+Elevator (Moving-up,0,0,0->2)
+Elevator (Moving-up,0,0,1->2)
+Elevator (Idle,0,0,2->)
+Person (2,hp,2,6,85) made a request
+Elevator (Moving-up,0,0,2->)
+Person (2,hp,2,6,85) entered the elevator
+Elevator (Moving-up,85,1,2->6)
+Elevator (Moving-up,85,1,3->6)
+Elevator (Moving-up,85,1,4->6)
+Elevator (Moving-up,85,1,5->6)
+Elevator (Idle,85,1,6->)
+Person (2,hp,2,6,85) has left the elevator
+Elevator (Idle,0,0,6->)
+
+
