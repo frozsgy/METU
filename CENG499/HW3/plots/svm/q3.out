@@ -1,0 +1,1007 @@
+-------
+Start grid search
+Fitting 5 folds for each of 120 candidates, totalling 600 fits
+[CV 1/5] END C=0.01, gamma=1e-05, kernel=linear;, score=(train=0.811, test=0.787) total time=   0.6s
+[CV 2/5] END C=0.01, gamma=1e-05, kernel=linear;, score=(train=0.820, test=0.763) total time=   0.6s
+[CV 3/5] END C=0.01, gamma=1e-05, kernel=linear;, score=(train=0.814, test=0.790) total time=   0.6s
+[CV 4/5] END C=0.01, gamma=1e-05, kernel=linear;, score=(train=0.828, test=0.740) total time=   0.6s
+[CV 5/5] END C=0.01, gamma=1e-05, kernel=linear;, score=(train=0.817, test=0.790) total time=   0.6s
+[CV 1/5] END C=0.01, gamma=1e-05, kernel=rbf;, score=(train=0.510, test=0.510) total time=   0.9s
+[CV 2/5] END C=0.01, gamma=1e-05, kernel=rbf;, score=(train=0.510, test=0.510) total time=   1.0s
+[CV 3/5] END C=0.01, gamma=1e-05, kernel=rbf;, score=(train=0.510, test=0.510) total time=   1.0s
+[CV 4/5] END C=0.01, gamma=1e-05, kernel=rbf;, score=(train=0.510, test=0.510) total time=   1.0s
+[CV 5/5] END C=0.01, gamma=1e-05, kernel=rbf;, score=(train=0.510, test=0.510) total time=   0.9s
+[CV 1/5] END C=0.01, gamma=1e-05, kernel=poly;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 2/5] END C=0.01, gamma=1e-05, kernel=poly;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 3/5] END C=0.01, gamma=1e-05, kernel=poly;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 4/5] END C=0.01, gamma=1e-05, kernel=poly;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 5/5] END C=0.01, gamma=1e-05, kernel=poly;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 1/5] END C=0.01, gamma=1e-05, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 2/5] END C=0.01, gamma=1e-05, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 3/5] END C=0.01, gamma=1e-05, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 4/5] END C=0.01, gamma=1e-05, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 5/5] END C=0.01, gamma=1e-05, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 1/5] END C=0.01, gamma=0.0001, kernel=linear;, score=(train=0.811, test=0.787) total time=   0.6s
+[CV 2/5] END C=0.01, gamma=0.0001, kernel=linear;, score=(train=0.820, test=0.763) total time=   0.5s
+[CV 3/5] END C=0.01, gamma=0.0001, kernel=linear;, score=(train=0.814, test=0.790) total time=   0.6s
+[CV 4/5] END C=0.01, gamma=0.0001, kernel=linear;, score=(train=0.828, test=0.740) total time=   0.5s
+[CV 5/5] END C=0.01, gamma=0.0001, kernel=linear;, score=(train=0.817, test=0.790) total time=   0.6s
+[CV 1/5] END C=0.01, gamma=0.0001, kernel=rbf;, score=(train=0.510, test=0.510) total time=   0.9s
+[CV 2/5] END C=0.01, gamma=0.0001, kernel=rbf;, score=(train=0.510, test=0.510) total time=   0.9s
+[CV 3/5] END C=0.01, gamma=0.0001, kernel=rbf;, score=(train=0.510, test=0.510) total time=   0.9s
+[CV 4/5] END C=0.01, gamma=0.0001, kernel=rbf;, score=(train=0.510, test=0.510) total time=   0.9s
+[CV 5/5] END C=0.01, gamma=0.0001, kernel=rbf;, score=(train=0.510, test=0.510) total time=   0.9s
+[CV 1/5] END C=0.01, gamma=0.0001, kernel=poly;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 2/5] END C=0.01, gamma=0.0001, kernel=poly;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 3/5] END C=0.01, gamma=0.0001, kernel=poly;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 4/5] END C=0.01, gamma=0.0001, kernel=poly;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 5/5] END C=0.01, gamma=0.0001, kernel=poly;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 1/5] END C=0.01, gamma=0.0001, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 2/5] END C=0.01, gamma=0.0001, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 3/5] END C=0.01, gamma=0.0001, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 4/5] END C=0.01, gamma=0.0001, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 5/5] END C=0.01, gamma=0.0001, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 1/5] END C=0.01, gamma=0.001, kernel=linear;, score=(train=0.811, test=0.787) total time=   0.6s
+[CV 2/5] END C=0.01, gamma=0.001, kernel=linear;, score=(train=0.820, test=0.763) total time=   0.5s
+[CV 3/5] END C=0.01, gamma=0.001, kernel=linear;, score=(train=0.814, test=0.790) total time=   0.6s
+[CV 4/5] END C=0.01, gamma=0.001, kernel=linear;, score=(train=0.828, test=0.740) total time=   0.5s
+[CV 5/5] END C=0.01, gamma=0.001, kernel=linear;, score=(train=0.817, test=0.790) total time=   0.6s
+[CV 1/5] END C=0.01, gamma=0.001, kernel=rbf;, score=(train=0.510, test=0.510) total time=   1.0s
+[CV 2/5] END C=0.01, gamma=0.001, kernel=rbf;, score=(train=0.510, test=0.510) total time=   1.0s
+[CV 3/5] END C=0.01, gamma=0.001, kernel=rbf;, score=(train=0.510, test=0.510) total time=   0.9s
+[CV 4/5] END C=0.01, gamma=0.001, kernel=rbf;, score=(train=0.510, test=0.510) total time=   1.0s
+[CV 5/5] END C=0.01, gamma=0.001, kernel=rbf;, score=(train=0.510, test=0.510) total time=   0.9s
+[CV 1/5] END C=0.01, gamma=0.001, kernel=poly;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 2/5] END C=0.01, gamma=0.001, kernel=poly;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 3/5] END C=0.01, gamma=0.001, kernel=poly;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 4/5] END C=0.01, gamma=0.001, kernel=poly;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 5/5] END C=0.01, gamma=0.001, kernel=poly;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 1/5] END C=0.01, gamma=0.001, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 2/5] END C=0.01, gamma=0.001, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 3/5] END C=0.01, gamma=0.001, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 4/5] END C=0.01, gamma=0.001, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 5/5] END C=0.01, gamma=0.001, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 1/5] END C=0.01, gamma=0.01, kernel=linear;, score=(train=0.811, test=0.787) total time=   0.6s
+[CV 2/5] END C=0.01, gamma=0.01, kernel=linear;, score=(train=0.820, test=0.763) total time=   0.5s
+[CV 3/5] END C=0.01, gamma=0.01, kernel=linear;, score=(train=0.814, test=0.790) total time=   0.6s
+[CV 4/5] END C=0.01, gamma=0.01, kernel=linear;, score=(train=0.828, test=0.740) total time=   0.6s
+[CV 5/5] END C=0.01, gamma=0.01, kernel=linear;, score=(train=0.817, test=0.790) total time=   0.6s
+[CV 1/5] END C=0.01, gamma=0.01, kernel=rbf;, score=(train=0.510, test=0.510) total time=   1.0s
+[CV 2/5] END C=0.01, gamma=0.01, kernel=rbf;, score=(train=0.510, test=0.510) total time=   0.9s
+[CV 3/5] END C=0.01, gamma=0.01, kernel=rbf;, score=(train=0.510, test=0.510) total time=   0.9s
+[CV 4/5] END C=0.01, gamma=0.01, kernel=rbf;, score=(train=0.510, test=0.510) total time=   0.9s
+[CV 5/5] END C=0.01, gamma=0.01, kernel=rbf;, score=(train=0.510, test=0.510) total time=   1.0s
+[CV 1/5] END C=0.01, gamma=0.01, kernel=poly;, score=(train=0.752, test=0.763) total time=   0.7s
+[CV 2/5] END C=0.01, gamma=0.01, kernel=poly;, score=(train=0.758, test=0.727) total time=   0.7s
+[CV 3/5] END C=0.01, gamma=0.01, kernel=poly;, score=(train=0.752, test=0.727) total time=   0.7s
+[CV 4/5] END C=0.01, gamma=0.01, kernel=poly;, score=(train=0.761, test=0.720) total time=   0.7s
+[CV 5/5] END C=0.01, gamma=0.01, kernel=poly;, score=(train=0.753, test=0.750) total time=   0.7s
+[CV 1/5] END C=0.01, gamma=0.01, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.9s
+[CV 2/5] END C=0.01, gamma=0.01, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 3/5] END C=0.01, gamma=0.01, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.9s
+[CV 4/5] END C=0.01, gamma=0.01, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 5/5] END C=0.01, gamma=0.01, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.9s
+[CV 1/5] END C=0.01, gamma=0.1, kernel=linear;, score=(train=0.811, test=0.787) total time=   0.6s
+[CV 2/5] END C=0.01, gamma=0.1, kernel=linear;, score=(train=0.820, test=0.763) total time=   0.5s
+[CV 3/5] END C=0.01, gamma=0.1, kernel=linear;, score=(train=0.814, test=0.790) total time=   0.6s
+[CV 4/5] END C=0.01, gamma=0.1, kernel=linear;, score=(train=0.828, test=0.740) total time=   0.5s
+[CV 5/5] END C=0.01, gamma=0.1, kernel=linear;, score=(train=0.817, test=0.790) total time=   0.6s
+[CV 1/5] END C=0.01, gamma=0.1, kernel=rbf;, score=(train=0.510, test=0.510) total time=   0.9s
+[CV 2/5] END C=0.01, gamma=0.1, kernel=rbf;, score=(train=0.510, test=0.510) total time=   1.0s
+[CV 3/5] END C=0.01, gamma=0.1, kernel=rbf;, score=(train=0.510, test=0.510) total time=   0.9s
+[CV 4/5] END C=0.01, gamma=0.1, kernel=rbf;, score=(train=0.510, test=0.510) total time=   1.0s
+[CV 5/5] END C=0.01, gamma=0.1, kernel=rbf;, score=(train=0.510, test=0.510) total time=   0.9s
+[CV 1/5] END C=0.01, gamma=0.1, kernel=poly;, score=(train=1.000, test=0.847) total time=   0.4s
+[CV 2/5] END C=0.01, gamma=0.1, kernel=poly;, score=(train=1.000, test=0.863) total time=   0.4s
+[CV 3/5] END C=0.01, gamma=0.1, kernel=poly;, score=(train=1.000, test=0.863) total time=   0.4s
+[CV 4/5] END C=0.01, gamma=0.1, kernel=poly;, score=(train=1.000, test=0.890) total time=   0.4s
+[CV 5/5] END C=0.01, gamma=0.1, kernel=poly;, score=(train=1.000, test=0.873) total time=   0.4s
+[CV 1/5] END C=0.01, gamma=0.1, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 2/5] END C=0.01, gamma=0.1, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 3/5] END C=0.01, gamma=0.1, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 4/5] END C=0.01, gamma=0.1, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 5/5] END C=0.01, gamma=0.1, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 1/5] END C=0.01, gamma=1, kernel=linear;, score=(train=0.811, test=0.787) total time=   0.6s
+[CV 2/5] END C=0.01, gamma=1, kernel=linear;, score=(train=0.820, test=0.763) total time=   0.5s
+[CV 3/5] END C=0.01, gamma=1, kernel=linear;, score=(train=0.814, test=0.790) total time=   0.6s
+[CV 4/5] END C=0.01, gamma=1, kernel=linear;, score=(train=0.828, test=0.740) total time=   0.5s
+[CV 5/5] END C=0.01, gamma=1, kernel=linear;, score=(train=0.817, test=0.790) total time=   0.6s
+[CV 1/5] END C=0.01, gamma=1, kernel=rbf;, score=(train=0.510, test=0.510) total time=   0.9s
+[CV 2/5] END C=0.01, gamma=1, kernel=rbf;, score=(train=0.510, test=0.510) total time=   0.9s
+[CV 3/5] END C=0.01, gamma=1, kernel=rbf;, score=(train=0.510, test=0.510) total time=   0.9s
+[CV 4/5] END C=0.01, gamma=1, kernel=rbf;, score=(train=0.510, test=0.510) total time=   0.9s
+[CV 5/5] END C=0.01, gamma=1, kernel=rbf;, score=(train=0.510, test=0.510) total time=   0.9s
+[CV 1/5] END C=0.01, gamma=1, kernel=poly;, score=(train=1.000, test=0.847) total time=   0.4s
+[CV 2/5] END C=0.01, gamma=1, kernel=poly;, score=(train=1.000, test=0.863) total time=   0.4s
+[CV 3/5] END C=0.01, gamma=1, kernel=poly;, score=(train=1.000, test=0.863) total time=   0.4s
+[CV 4/5] END C=0.01, gamma=1, kernel=poly;, score=(train=1.000, test=0.890) total time=   0.4s
+[CV 5/5] END C=0.01, gamma=1, kernel=poly;, score=(train=1.000, test=0.873) total time=   0.4s
+[CV 1/5] END C=0.01, gamma=1, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 2/5] END C=0.01, gamma=1, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 3/5] END C=0.01, gamma=1, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 4/5] END C=0.01, gamma=1, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 5/5] END C=0.01, gamma=1, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 1/5] END C=0.1, gamma=1e-05, kernel=linear;, score=(train=0.887, test=0.837) total time=   0.5s
+[CV 2/5] END C=0.1, gamma=1e-05, kernel=linear;, score=(train=0.889, test=0.810) total time=   0.5s
+[CV 3/5] END C=0.1, gamma=1e-05, kernel=linear;, score=(train=0.876, test=0.817) total time=   0.5s
+[CV 4/5] END C=0.1, gamma=1e-05, kernel=linear;, score=(train=0.884, test=0.800) total time=   0.4s
+[CV 5/5] END C=0.1, gamma=1e-05, kernel=linear;, score=(train=0.877, test=0.793) total time=   0.5s
+[CV 1/5] END C=0.1, gamma=1e-05, kernel=rbf;, score=(train=0.510, test=0.510) total time=   0.9s
+[CV 2/5] END C=0.1, gamma=1e-05, kernel=rbf;, score=(train=0.510, test=0.510) total time=   0.9s
+[CV 3/5] END C=0.1, gamma=1e-05, kernel=rbf;, score=(train=0.510, test=0.510) total time=   0.9s
+[CV 4/5] END C=0.1, gamma=1e-05, kernel=rbf;, score=(train=0.510, test=0.510) total time=   0.9s
+[CV 5/5] END C=0.1, gamma=1e-05, kernel=rbf;, score=(train=0.510, test=0.510) total time=   0.9s
+[CV 1/5] END C=0.1, gamma=1e-05, kernel=poly;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 2/5] END C=0.1, gamma=1e-05, kernel=poly;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 3/5] END C=0.1, gamma=1e-05, kernel=poly;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 4/5] END C=0.1, gamma=1e-05, kernel=poly;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 5/5] END C=0.1, gamma=1e-05, kernel=poly;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 1/5] END C=0.1, gamma=1e-05, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 2/5] END C=0.1, gamma=1e-05, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 3/5] END C=0.1, gamma=1e-05, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 4/5] END C=0.1, gamma=1e-05, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 5/5] END C=0.1, gamma=1e-05, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 1/5] END C=0.1, gamma=0.0001, kernel=linear;, score=(train=0.887, test=0.837) total time=   0.5s
+[CV 2/5] END C=0.1, gamma=0.0001, kernel=linear;, score=(train=0.889, test=0.810) total time=   0.5s
+[CV 3/5] END C=0.1, gamma=0.0001, kernel=linear;, score=(train=0.876, test=0.817) total time=   0.5s
+[CV 4/5] END C=0.1, gamma=0.0001, kernel=linear;, score=(train=0.884, test=0.800) total time=   0.4s
+[CV 5/5] END C=0.1, gamma=0.0001, kernel=linear;, score=(train=0.877, test=0.793) total time=   0.5s
+[CV 1/5] END C=0.1, gamma=0.0001, kernel=rbf;, score=(train=0.510, test=0.510) total time=   0.9s
+[CV 2/5] END C=0.1, gamma=0.0001, kernel=rbf;, score=(train=0.510, test=0.510) total time=   0.9s
+[CV 3/5] END C=0.1, gamma=0.0001, kernel=rbf;, score=(train=0.510, test=0.510) total time=   0.9s
+[CV 4/5] END C=0.1, gamma=0.0001, kernel=rbf;, score=(train=0.510, test=0.510) total time=   0.9s
+[CV 5/5] END C=0.1, gamma=0.0001, kernel=rbf;, score=(train=0.510, test=0.510) total time=   0.9s
+[CV 1/5] END C=0.1, gamma=0.0001, kernel=poly;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 2/5] END C=0.1, gamma=0.0001, kernel=poly;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 3/5] END C=0.1, gamma=0.0001, kernel=poly;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 4/5] END C=0.1, gamma=0.0001, kernel=poly;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 5/5] END C=0.1, gamma=0.0001, kernel=poly;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 1/5] END C=0.1, gamma=0.0001, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 2/5] END C=0.1, gamma=0.0001, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 3/5] END C=0.1, gamma=0.0001, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 4/5] END C=0.1, gamma=0.0001, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 5/5] END C=0.1, gamma=0.0001, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 1/5] END C=0.1, gamma=0.001, kernel=linear;, score=(train=0.887, test=0.837) total time=   0.5s
+[CV 2/5] END C=0.1, gamma=0.001, kernel=linear;, score=(train=0.889, test=0.810) total time=   0.4s
+[CV 3/5] END C=0.1, gamma=0.001, kernel=linear;, score=(train=0.876, test=0.817) total time=   0.5s
+[CV 4/5] END C=0.1, gamma=0.001, kernel=linear;, score=(train=0.884, test=0.800) total time=   0.4s
+[CV 5/5] END C=0.1, gamma=0.001, kernel=linear;, score=(train=0.877, test=0.793) total time=   0.5s
+[CV 1/5] END C=0.1, gamma=0.001, kernel=rbf;, score=(train=0.511, test=0.510) total time=   0.9s
+[CV 2/5] END C=0.1, gamma=0.001, kernel=rbf;, score=(train=0.512, test=0.510) total time=   0.9s
+[CV 3/5] END C=0.1, gamma=0.001, kernel=rbf;, score=(train=0.511, test=0.510) total time=   0.9s
+[CV 4/5] END C=0.1, gamma=0.001, kernel=rbf;, score=(train=0.512, test=0.510) total time=   0.9s
+[CV 5/5] END C=0.1, gamma=0.001, kernel=rbf;, score=(train=0.510, test=0.513) total time=   0.9s
+[CV 1/5] END C=0.1, gamma=0.001, kernel=poly;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 2/5] END C=0.1, gamma=0.001, kernel=poly;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 3/5] END C=0.1, gamma=0.001, kernel=poly;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 4/5] END C=0.1, gamma=0.001, kernel=poly;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 5/5] END C=0.1, gamma=0.001, kernel=poly;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 1/5] END C=0.1, gamma=0.001, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 2/5] END C=0.1, gamma=0.001, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 3/5] END C=0.1, gamma=0.001, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 4/5] END C=0.1, gamma=0.001, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 5/5] END C=0.1, gamma=0.001, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 1/5] END C=0.1, gamma=0.01, kernel=linear;, score=(train=0.887, test=0.837) total time=   0.5s
+[CV 2/5] END C=0.1, gamma=0.01, kernel=linear;, score=(train=0.889, test=0.810) total time=   0.5s
+[CV 3/5] END C=0.1, gamma=0.01, kernel=linear;, score=(train=0.876, test=0.817) total time=   0.4s
+[CV 4/5] END C=0.1, gamma=0.01, kernel=linear;, score=(train=0.884, test=0.800) total time=   0.4s
+[CV 5/5] END C=0.1, gamma=0.01, kernel=linear;, score=(train=0.877, test=0.793) total time=   0.5s
+[CV 1/5] END C=0.1, gamma=0.01, kernel=rbf;, score=(train=0.781, test=0.777) total time=   0.9s
+[CV 2/5] END C=0.1, gamma=0.01, kernel=rbf;, score=(train=0.788, test=0.747) total time=   0.9s
+[CV 3/5] END C=0.1, gamma=0.01, kernel=rbf;, score=(train=0.781, test=0.783) total time=   0.9s
+[CV 4/5] END C=0.1, gamma=0.01, kernel=rbf;, score=(train=0.792, test=0.747) total time=   0.9s
+[CV 5/5] END C=0.1, gamma=0.01, kernel=rbf;, score=(train=0.780, test=0.753) total time=   0.9s
+[CV 1/5] END C=0.1, gamma=0.01, kernel=poly;, score=(train=0.858, test=0.820) total time=   0.5s
+[CV 2/5] END C=0.1, gamma=0.01, kernel=poly;, score=(train=0.854, test=0.797) total time=   0.5s
+[CV 3/5] END C=0.1, gamma=0.01, kernel=poly;, score=(train=0.846, test=0.823) total time=   0.5s
+[CV 4/5] END C=0.1, gamma=0.01, kernel=poly;, score=(train=0.859, test=0.800) total time=   0.5s
+[CV 5/5] END C=0.1, gamma=0.01, kernel=poly;, score=(train=0.858, test=0.810) total time=   0.5s
+[CV 1/5] END C=0.1, gamma=0.01, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 2/5] END C=0.1, gamma=0.01, kernel=sigmoid;, score=(train=0.512, test=0.513) total time=   0.8s
+[CV 3/5] END C=0.1, gamma=0.01, kernel=sigmoid;, score=(train=0.511, test=0.510) total time=   0.8s
+[CV 4/5] END C=0.1, gamma=0.01, kernel=sigmoid;, score=(train=0.511, test=0.513) total time=   0.8s
+[CV 5/5] END C=0.1, gamma=0.01, kernel=sigmoid;, score=(train=0.511, test=0.507) total time=   0.8s
+[CV 1/5] END C=0.1, gamma=0.1, kernel=linear;, score=(train=0.887, test=0.837) total time=   0.5s
+[CV 2/5] END C=0.1, gamma=0.1, kernel=linear;, score=(train=0.889, test=0.810) total time=   0.5s
+[CV 3/5] END C=0.1, gamma=0.1, kernel=linear;, score=(train=0.876, test=0.817) total time=   0.5s
+[CV 4/5] END C=0.1, gamma=0.1, kernel=linear;, score=(train=0.884, test=0.800) total time=   0.4s
+[CV 5/5] END C=0.1, gamma=0.1, kernel=linear;, score=(train=0.877, test=0.793) total time=   0.5s
+[CV 1/5] END C=0.1, gamma=0.1, kernel=rbf;, score=(train=0.510, test=0.510) total time=   0.9s
+[CV 2/5] END C=0.1, gamma=0.1, kernel=rbf;, score=(train=0.510, test=0.510) total time=   1.0s
+[CV 3/5] END C=0.1, gamma=0.1, kernel=rbf;, score=(train=0.510, test=0.510) total time=   0.9s
+[CV 4/5] END C=0.1, gamma=0.1, kernel=rbf;, score=(train=0.510, test=0.510) total time=   0.9s
+[CV 5/5] END C=0.1, gamma=0.1, kernel=rbf;, score=(train=0.510, test=0.510) total time=   0.9s
+[CV 1/5] END C=0.1, gamma=0.1, kernel=poly;, score=(train=1.000, test=0.847) total time=   0.4s
+[CV 2/5] END C=0.1, gamma=0.1, kernel=poly;, score=(train=1.000, test=0.863) total time=   0.4s
+[CV 3/5] END C=0.1, gamma=0.1, kernel=poly;, score=(train=1.000, test=0.863) total time=   0.4s
+[CV 4/5] END C=0.1, gamma=0.1, kernel=poly;, score=(train=1.000, test=0.890) total time=   0.4s
+[CV 5/5] END C=0.1, gamma=0.1, kernel=poly;, score=(train=1.000, test=0.873) total time=   0.4s
+[CV 1/5] END C=0.1, gamma=0.1, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 2/5] END C=0.1, gamma=0.1, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 3/5] END C=0.1, gamma=0.1, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 4/5] END C=0.1, gamma=0.1, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 5/5] END C=0.1, gamma=0.1, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 1/5] END C=0.1, gamma=1, kernel=linear;, score=(train=0.887, test=0.837) total time=   0.5s
+[CV 2/5] END C=0.1, gamma=1, kernel=linear;, score=(train=0.889, test=0.810) total time=   0.5s
+[CV 3/5] END C=0.1, gamma=1, kernel=linear;, score=(train=0.876, test=0.817) total time=   0.5s
+[CV 4/5] END C=0.1, gamma=1, kernel=linear;, score=(train=0.884, test=0.800) total time=   0.4s
+[CV 5/5] END C=0.1, gamma=1, kernel=linear;, score=(train=0.877, test=0.793) total time=   0.5s
+[CV 1/5] END C=0.1, gamma=1, kernel=rbf;, score=(train=0.510, test=0.510) total time=   1.0s
+[CV 2/5] END C=0.1, gamma=1, kernel=rbf;, score=(train=0.510, test=0.510) total time=   1.0s
+[CV 3/5] END C=0.1, gamma=1, kernel=rbf;, score=(train=0.510, test=0.510) total time=   1.0s
+[CV 4/5] END C=0.1, gamma=1, kernel=rbf;, score=(train=0.510, test=0.510) total time=   1.0s
+[CV 5/5] END C=0.1, gamma=1, kernel=rbf;, score=(train=0.510, test=0.510) total time=   1.0s
+[CV 1/5] END C=0.1, gamma=1, kernel=poly;, score=(train=1.000, test=0.847) total time=   0.4s
+[CV 2/5] END C=0.1, gamma=1, kernel=poly;, score=(train=1.000, test=0.863) total time=   0.4s
+[CV 3/5] END C=0.1, gamma=1, kernel=poly;, score=(train=1.000, test=0.863) total time=   0.4s
+[CV 4/5] END C=0.1, gamma=1, kernel=poly;, score=(train=1.000, test=0.890) total time=   0.4s
+[CV 5/5] END C=0.1, gamma=1, kernel=poly;, score=(train=1.000, test=0.873) total time=   0.4s
+[CV 1/5] END C=0.1, gamma=1, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 2/5] END C=0.1, gamma=1, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 3/5] END C=0.1, gamma=1, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 4/5] END C=0.1, gamma=1, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 5/5] END C=0.1, gamma=1, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 1/5] END C=1, gamma=1e-05, kernel=linear;, score=(train=0.948, test=0.797) total time=   0.6s
+[CV 2/5] END C=1, gamma=1e-05, kernel=linear;, score=(train=0.954, test=0.753) total time=   0.6s
+[CV 3/5] END C=1, gamma=1e-05, kernel=linear;, score=(train=0.950, test=0.780) total time=   0.5s
+[CV 4/5] END C=1, gamma=1e-05, kernel=linear;, score=(train=0.947, test=0.777) total time=   0.5s
+[CV 5/5] END C=1, gamma=1e-05, kernel=linear;, score=(train=0.951, test=0.787) total time=   0.6s
+[CV 1/5] END C=1, gamma=1e-05, kernel=rbf;, score=(train=0.510, test=0.510) total time=   0.9s
+[CV 2/5] END C=1, gamma=1e-05, kernel=rbf;, score=(train=0.510, test=0.510) total time=   0.9s
+[CV 3/5] END C=1, gamma=1e-05, kernel=rbf;, score=(train=0.510, test=0.510) total time=   0.9s
+[CV 4/5] END C=1, gamma=1e-05, kernel=rbf;, score=(train=0.510, test=0.510) total time=   0.9s
+[CV 5/5] END C=1, gamma=1e-05, kernel=rbf;, score=(train=0.510, test=0.510) total time=   0.9s
+[CV 1/5] END C=1, gamma=1e-05, kernel=poly;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 2/5] END C=1, gamma=1e-05, kernel=poly;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 3/5] END C=1, gamma=1e-05, kernel=poly;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 4/5] END C=1, gamma=1e-05, kernel=poly;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 5/5] END C=1, gamma=1e-05, kernel=poly;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 1/5] END C=1, gamma=1e-05, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 2/5] END C=1, gamma=1e-05, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 3/5] END C=1, gamma=1e-05, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 4/5] END C=1, gamma=1e-05, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 5/5] END C=1, gamma=1e-05, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 1/5] END C=1, gamma=0.0001, kernel=linear;, score=(train=0.948, test=0.797) total time=   0.6s
+[CV 2/5] END C=1, gamma=0.0001, kernel=linear;, score=(train=0.954, test=0.753) total time=   0.6s
+[CV 3/5] END C=1, gamma=0.0001, kernel=linear;, score=(train=0.950, test=0.780) total time=   0.5s
+[CV 4/5] END C=1, gamma=0.0001, kernel=linear;, score=(train=0.947, test=0.777) total time=   0.5s
+[CV 5/5] END C=1, gamma=0.0001, kernel=linear;, score=(train=0.951, test=0.787) total time=   0.6s
+[CV 1/5] END C=1, gamma=0.0001, kernel=rbf;, score=(train=0.512, test=0.510) total time=   0.9s
+[CV 2/5] END C=1, gamma=0.0001, kernel=rbf;, score=(train=0.521, test=0.510) total time=   0.9s
+[CV 3/5] END C=1, gamma=0.0001, kernel=rbf;, score=(train=0.511, test=0.510) total time=   0.9s
+[CV 4/5] END C=1, gamma=0.0001, kernel=rbf;, score=(train=0.513, test=0.510) total time=   0.9s
+[CV 5/5] END C=1, gamma=0.0001, kernel=rbf;, score=(train=0.512, test=0.517) total time=   0.9s
+[CV 1/5] END C=1, gamma=0.0001, kernel=poly;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 2/5] END C=1, gamma=0.0001, kernel=poly;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 3/5] END C=1, gamma=0.0001, kernel=poly;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 4/5] END C=1, gamma=0.0001, kernel=poly;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 5/5] END C=1, gamma=0.0001, kernel=poly;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 1/5] END C=1, gamma=0.0001, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 2/5] END C=1, gamma=0.0001, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 3/5] END C=1, gamma=0.0001, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 4/5] END C=1, gamma=0.0001, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 5/5] END C=1, gamma=0.0001, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 1/5] END C=1, gamma=0.001, kernel=linear;, score=(train=0.948, test=0.797) total time=   0.6s
+[CV 2/5] END C=1, gamma=0.001, kernel=linear;, score=(train=0.954, test=0.753) total time=   0.6s
+[CV 3/5] END C=1, gamma=0.001, kernel=linear;, score=(train=0.950, test=0.780) total time=   0.5s
+[CV 4/5] END C=1, gamma=0.001, kernel=linear;, score=(train=0.947, test=0.777) total time=   0.5s
+[CV 5/5] END C=1, gamma=0.001, kernel=linear;, score=(train=0.951, test=0.787) total time=   0.6s
+[CV 1/5] END C=1, gamma=0.001, kernel=rbf;, score=(train=0.778, test=0.760) total time=   0.8s
+[CV 2/5] END C=1, gamma=0.001, kernel=rbf;, score=(train=0.780, test=0.740) total time=   0.8s
+[CV 3/5] END C=1, gamma=0.001, kernel=rbf;, score=(train=0.774, test=0.773) total time=   0.8s
+[CV 4/5] END C=1, gamma=0.001, kernel=rbf;, score=(train=0.786, test=0.717) total time=   0.8s
+[CV 5/5] END C=1, gamma=0.001, kernel=rbf;, score=(train=0.772, test=0.763) total time=   0.8s
+[CV 1/5] END C=1, gamma=0.001, kernel=poly;, score=(train=0.556, test=0.550) total time=   0.8s
+[CV 2/5] END C=1, gamma=0.001, kernel=poly;, score=(train=0.567, test=0.547) total time=   0.8s
+[CV 3/5] END C=1, gamma=0.001, kernel=poly;, score=(train=0.553, test=0.543) total time=   0.8s
+[CV 4/5] END C=1, gamma=0.001, kernel=poly;, score=(train=0.555, test=0.557) total time=   0.8s
+[CV 5/5] END C=1, gamma=0.001, kernel=poly;, score=(train=0.560, test=0.557) total time=   0.8s
+[CV 1/5] END C=1, gamma=0.001, kernel=sigmoid;, score=(train=0.741, test=0.747) total time=   0.8s
+[CV 2/5] END C=1, gamma=0.001, kernel=sigmoid;, score=(train=0.748, test=0.723) total time=   0.7s
+[CV 3/5] END C=1, gamma=0.001, kernel=sigmoid;, score=(train=0.748, test=0.757) total time=   0.8s
+[CV 4/5] END C=1, gamma=0.001, kernel=sigmoid;, score=(train=0.762, test=0.707) total time=   0.7s
+[CV 5/5] END C=1, gamma=0.001, kernel=sigmoid;, score=(train=0.743, test=0.747) total time=   0.8s
+[CV 1/5] END C=1, gamma=0.01, kernel=linear;, score=(train=0.948, test=0.797) total time=   0.6s
+[CV 2/5] END C=1, gamma=0.01, kernel=linear;, score=(train=0.954, test=0.753) total time=   0.6s
+[CV 3/5] END C=1, gamma=0.01, kernel=linear;, score=(train=0.950, test=0.780) total time=   0.5s
+[CV 4/5] END C=1, gamma=0.01, kernel=linear;, score=(train=0.947, test=0.777) total time=   0.5s
+[CV 5/5] END C=1, gamma=0.01, kernel=linear;, score=(train=0.951, test=0.787) total time=   0.6s
+[CV 1/5] END C=1, gamma=0.01, kernel=rbf;, score=(train=0.921, test=0.870) total time=   0.6s
+[CV 2/5] END C=1, gamma=0.01, kernel=rbf;, score=(train=0.916, test=0.873) total time=   0.6s
+[CV 3/5] END C=1, gamma=0.01, kernel=rbf;, score=(train=0.920, test=0.883) total time=   0.6s
+[CV 4/5] END C=1, gamma=0.01, kernel=rbf;, score=(train=0.919, test=0.847) total time=   0.6s
+[CV 5/5] END C=1, gamma=0.01, kernel=rbf;, score=(train=0.922, test=0.873) total time=   0.6s
+[CV 1/5] END C=1, gamma=0.01, kernel=poly;, score=(train=0.973, test=0.850) total time=   0.4s
+[CV 2/5] END C=1, gamma=0.01, kernel=poly;, score=(train=0.973, test=0.880) total time=   0.4s
+[CV 3/5] END C=1, gamma=0.01, kernel=poly;, score=(train=0.972, test=0.900) total time=   0.4s
+[CV 4/5] END C=1, gamma=0.01, kernel=poly;, score=(train=0.973, test=0.880) total time=   0.4s
+[CV 5/5] END C=1, gamma=0.01, kernel=poly;, score=(train=0.975, test=0.863) total time=   0.4s
+[CV 1/5] END C=1, gamma=0.01, kernel=sigmoid;, score=(train=0.336, test=0.327) total time=   0.8s
+[CV 2/5] END C=1, gamma=0.01, kernel=sigmoid;, score=(train=0.333, test=0.370) total time=   0.8s
+[CV 3/5] END C=1, gamma=0.01, kernel=sigmoid;, score=(train=0.343, test=0.337) total time=   0.8s
+[CV 4/5] END C=1, gamma=0.01, kernel=sigmoid;, score=(train=0.343, test=0.310) total time=   0.8s
+[CV 5/5] END C=1, gamma=0.01, kernel=sigmoid;, score=(train=0.337, test=0.340) total time=   0.8s
+[CV 1/5] END C=1, gamma=0.1, kernel=linear;, score=(train=0.948, test=0.797) total time=   0.6s
+[CV 2/5] END C=1, gamma=0.1, kernel=linear;, score=(train=0.954, test=0.753) total time=   0.6s
+[CV 3/5] END C=1, gamma=0.1, kernel=linear;, score=(train=0.950, test=0.780) total time=   0.5s
+[CV 4/5] END C=1, gamma=0.1, kernel=linear;, score=(train=0.947, test=0.777) total time=   0.5s
+[CV 5/5] END C=1, gamma=0.1, kernel=linear;, score=(train=0.951, test=0.787) total time=   0.6s
+[CV 1/5] END C=1, gamma=0.1, kernel=rbf;, score=(train=1.000, test=0.887) total time=   1.0s
+[CV 2/5] END C=1, gamma=0.1, kernel=rbf;, score=(train=1.000, test=0.860) total time=   1.0s
+[CV 3/5] END C=1, gamma=0.1, kernel=rbf;, score=(train=1.000, test=0.903) total time=   1.0s
+[CV 4/5] END C=1, gamma=0.1, kernel=rbf;, score=(train=1.000, test=0.887) total time=   1.0s
+[CV 5/5] END C=1, gamma=0.1, kernel=rbf;, score=(train=1.000, test=0.880) total time=   1.0s
+[CV 1/5] END C=1, gamma=0.1, kernel=poly;, score=(train=1.000, test=0.847) total time=   0.4s
+[CV 2/5] END C=1, gamma=0.1, kernel=poly;, score=(train=1.000, test=0.863) total time=   0.4s
+[CV 3/5] END C=1, gamma=0.1, kernel=poly;, score=(train=1.000, test=0.863) total time=   0.4s
+[CV 4/5] END C=1, gamma=0.1, kernel=poly;, score=(train=1.000, test=0.890) total time=   0.4s
+[CV 5/5] END C=1, gamma=0.1, kernel=poly;, score=(train=1.000, test=0.873) total time=   0.4s
+[CV 1/5] END C=1, gamma=0.1, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 2/5] END C=1, gamma=0.1, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 3/5] END C=1, gamma=0.1, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 4/5] END C=1, gamma=0.1, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 5/5] END C=1, gamma=0.1, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 1/5] END C=1, gamma=1, kernel=linear;, score=(train=0.948, test=0.797) total time=   0.6s
+[CV 2/5] END C=1, gamma=1, kernel=linear;, score=(train=0.954, test=0.753) total time=   0.6s
+[CV 3/5] END C=1, gamma=1, kernel=linear;, score=(train=0.950, test=0.780) total time=   0.5s
+[CV 4/5] END C=1, gamma=1, kernel=linear;, score=(train=0.947, test=0.777) total time=   0.5s
+[CV 5/5] END C=1, gamma=1, kernel=linear;, score=(train=0.951, test=0.787) total time=   0.6s
+[CV 1/5] END C=1, gamma=1, kernel=rbf;, score=(train=1.000, test=0.510) total time=   1.0s
+[CV 2/5] END C=1, gamma=1, kernel=rbf;, score=(train=1.000, test=0.510) total time=   1.0s
+[CV 3/5] END C=1, gamma=1, kernel=rbf;, score=(train=1.000, test=0.510) total time=   1.0s
+[CV 4/5] END C=1, gamma=1, kernel=rbf;, score=(train=1.000, test=0.510) total time=   1.0s
+[CV 5/5] END C=1, gamma=1, kernel=rbf;, score=(train=1.000, test=0.510) total time=   1.0s
+[CV 1/5] END C=1, gamma=1, kernel=poly;, score=(train=1.000, test=0.847) total time=   0.4s
+[CV 2/5] END C=1, gamma=1, kernel=poly;, score=(train=1.000, test=0.863) total time=   0.4s
+[CV 3/5] END C=1, gamma=1, kernel=poly;, score=(train=1.000, test=0.863) total time=   0.4s
+[CV 4/5] END C=1, gamma=1, kernel=poly;, score=(train=1.000, test=0.890) total time=   0.4s
+[CV 5/5] END C=1, gamma=1, kernel=poly;, score=(train=1.000, test=0.873) total time=   0.4s
+[CV 1/5] END C=1, gamma=1, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 2/5] END C=1, gamma=1, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 3/5] END C=1, gamma=1, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 4/5] END C=1, gamma=1, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 5/5] END C=1, gamma=1, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 1/5] END C=10, gamma=1e-05, kernel=linear;, score=(train=0.999, test=0.743) total time=   0.9s
+[CV 2/5] END C=10, gamma=1e-05, kernel=linear;, score=(train=0.998, test=0.707) total time=   0.9s
+[CV 3/5] END C=10, gamma=1e-05, kernel=linear;, score=(train=1.000, test=0.737) total time=   0.8s
+[CV 4/5] END C=10, gamma=1e-05, kernel=linear;, score=(train=0.999, test=0.727) total time=   0.9s
+[CV 5/5] END C=10, gamma=1e-05, kernel=linear;, score=(train=0.999, test=0.777) total time=   0.8s
+[CV 1/5] END C=10, gamma=1e-05, kernel=rbf;, score=(train=0.512, test=0.510) total time=   0.9s
+[CV 2/5] END C=10, gamma=1e-05, kernel=rbf;, score=(train=0.521, test=0.510) total time=   0.9s
+[CV 3/5] END C=10, gamma=1e-05, kernel=rbf;, score=(train=0.511, test=0.510) total time=   0.9s
+[CV 4/5] END C=10, gamma=1e-05, kernel=rbf;, score=(train=0.514, test=0.510) total time=   0.9s
+[CV 5/5] END C=10, gamma=1e-05, kernel=rbf;, score=(train=0.512, test=0.517) total time=   0.9s
+[CV 1/5] END C=10, gamma=1e-05, kernel=poly;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 2/5] END C=10, gamma=1e-05, kernel=poly;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 3/5] END C=10, gamma=1e-05, kernel=poly;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 4/5] END C=10, gamma=1e-05, kernel=poly;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 5/5] END C=10, gamma=1e-05, kernel=poly;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 1/5] END C=10, gamma=1e-05, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 2/5] END C=10, gamma=1e-05, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 3/5] END C=10, gamma=1e-05, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 4/5] END C=10, gamma=1e-05, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 5/5] END C=10, gamma=1e-05, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 1/5] END C=10, gamma=0.0001, kernel=linear;, score=(train=0.999, test=0.743) total time=   0.9s
+[CV 2/5] END C=10, gamma=0.0001, kernel=linear;, score=(train=0.998, test=0.707) total time=   0.9s
+[CV 3/5] END C=10, gamma=0.0001, kernel=linear;, score=(train=1.000, test=0.737) total time=   0.8s
+[CV 4/5] END C=10, gamma=0.0001, kernel=linear;, score=(train=0.999, test=0.727) total time=   0.9s
+[CV 5/5] END C=10, gamma=0.0001, kernel=linear;, score=(train=0.999, test=0.777) total time=   0.8s
+[CV 1/5] END C=10, gamma=0.0001, kernel=rbf;, score=(train=0.766, test=0.760) total time=   0.8s
+[CV 2/5] END C=10, gamma=0.0001, kernel=rbf;, score=(train=0.772, test=0.737) total time=   0.8s
+[CV 3/5] END C=10, gamma=0.0001, kernel=rbf;, score=(train=0.768, test=0.773) total time=   0.8s
+[CV 4/5] END C=10, gamma=0.0001, kernel=rbf;, score=(train=0.778, test=0.713) total time=   0.8s
+[CV 5/5] END C=10, gamma=0.0001, kernel=rbf;, score=(train=0.768, test=0.760) total time=   0.8s
+[CV 1/5] END C=10, gamma=0.0001, kernel=poly;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 2/5] END C=10, gamma=0.0001, kernel=poly;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 3/5] END C=10, gamma=0.0001, kernel=poly;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 4/5] END C=10, gamma=0.0001, kernel=poly;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 5/5] END C=10, gamma=0.0001, kernel=poly;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 1/5] END C=10, gamma=0.0001, kernel=sigmoid;, score=(train=0.748, test=0.750) total time=   0.7s
+[CV 2/5] END C=10, gamma=0.0001, kernel=sigmoid;, score=(train=0.751, test=0.727) total time=   0.7s
+[CV 3/5] END C=10, gamma=0.0001, kernel=sigmoid;, score=(train=0.748, test=0.753) total time=   0.7s
+[CV 4/5] END C=10, gamma=0.0001, kernel=sigmoid;, score=(train=0.763, test=0.707) total time=   0.7s
+[CV 5/5] END C=10, gamma=0.0001, kernel=sigmoid;, score=(train=0.742, test=0.747) total time=   0.7s
+[CV 1/5] END C=10, gamma=0.001, kernel=linear;, score=(train=0.999, test=0.743) total time=   0.9s
+[CV 2/5] END C=10, gamma=0.001, kernel=linear;, score=(train=0.998, test=0.707) total time=   0.9s
+[CV 3/5] END C=10, gamma=0.001, kernel=linear;, score=(train=1.000, test=0.737) total time=   0.8s
+[CV 4/5] END C=10, gamma=0.001, kernel=linear;, score=(train=0.999, test=0.727) total time=   0.9s
+[CV 5/5] END C=10, gamma=0.001, kernel=linear;, score=(train=0.999, test=0.777) total time=   0.8s
+[CV 1/5] END C=10, gamma=0.001, kernel=rbf;, score=(train=0.873, test=0.857) total time=   0.6s
+[CV 2/5] END C=10, gamma=0.001, kernel=rbf;, score=(train=0.866, test=0.820) total time=   0.6s
+[CV 3/5] END C=10, gamma=0.001, kernel=rbf;, score=(train=0.870, test=0.820) total time=   0.6s
+[CV 4/5] END C=10, gamma=0.001, kernel=rbf;, score=(train=0.875, test=0.810) total time=   0.6s
+[CV 5/5] END C=10, gamma=0.001, kernel=rbf;, score=(train=0.869, test=0.833) total time=   0.6s
+[CV 1/5] END C=10, gamma=0.001, kernel=poly;, score=(train=0.752, test=0.763) total time=   0.7s
+[CV 2/5] END C=10, gamma=0.001, kernel=poly;, score=(train=0.758, test=0.727) total time=   0.7s
+[CV 3/5] END C=10, gamma=0.001, kernel=poly;, score=(train=0.752, test=0.727) total time=   0.7s
+[CV 4/5] END C=10, gamma=0.001, kernel=poly;, score=(train=0.761, test=0.720) total time=   0.7s
+[CV 5/5] END C=10, gamma=0.001, kernel=poly;, score=(train=0.753, test=0.750) total time=   0.7s
+[CV 1/5] END C=10, gamma=0.001, kernel=sigmoid;, score=(train=0.804, test=0.780) total time=   0.6s
+[CV 2/5] END C=10, gamma=0.001, kernel=sigmoid;, score=(train=0.811, test=0.760) total time=   0.6s
+[CV 3/5] END C=10, gamma=0.001, kernel=sigmoid;, score=(train=0.808, test=0.790) total time=   0.6s
+[CV 4/5] END C=10, gamma=0.001, kernel=sigmoid;, score=(train=0.822, test=0.727) total time=   0.6s
+[CV 5/5] END C=10, gamma=0.001, kernel=sigmoid;, score=(train=0.810, test=0.783) total time=   0.6s
+[CV 1/5] END C=10, gamma=0.01, kernel=linear;, score=(train=0.999, test=0.743) total time=   1.0s
+[CV 2/5] END C=10, gamma=0.01, kernel=linear;, score=(train=0.998, test=0.707) total time=   0.9s
+[CV 3/5] END C=10, gamma=0.01, kernel=linear;, score=(train=1.000, test=0.737) total time=   0.8s
+[CV 4/5] END C=10, gamma=0.01, kernel=linear;, score=(train=0.999, test=0.727) total time=   0.9s
+[CV 5/5] END C=10, gamma=0.01, kernel=linear;, score=(train=0.999, test=0.777) total time=   0.8s
+[CV 1/5] END C=10, gamma=0.01, kernel=rbf;, score=(train=1.000, test=0.873) total time=   0.7s
+[CV 2/5] END C=10, gamma=0.01, kernel=rbf;, score=(train=0.999, test=0.910) total time=   0.7s
+[CV 3/5] END C=10, gamma=0.01, kernel=rbf;, score=(train=0.999, test=0.900) total time=   0.7s
+[CV 4/5] END C=10, gamma=0.01, kernel=rbf;, score=(train=1.000, test=0.887) total time=   0.6s
+[CV 5/5] END C=10, gamma=0.01, kernel=rbf;, score=(train=1.000, test=0.900) total time=   0.7s
+[CV 1/5] END C=10, gamma=0.01, kernel=poly;, score=(train=1.000, test=0.847) total time=   0.4s
+[CV 2/5] END C=10, gamma=0.01, kernel=poly;, score=(train=1.000, test=0.863) total time=   0.4s
+[CV 3/5] END C=10, gamma=0.01, kernel=poly;, score=(train=1.000, test=0.863) total time=   0.4s
+[CV 4/5] END C=10, gamma=0.01, kernel=poly;, score=(train=1.000, test=0.890) total time=   0.4s
+[CV 5/5] END C=10, gamma=0.01, kernel=poly;, score=(train=1.000, test=0.873) total time=   0.4s
+[CV 1/5] END C=10, gamma=0.01, kernel=sigmoid;, score=(train=0.693, test=0.710) total time=   0.3s
+[CV 2/5] END C=10, gamma=0.01, kernel=sigmoid;, score=(train=0.694, test=0.670) total time=   0.3s
+[CV 3/5] END C=10, gamma=0.01, kernel=sigmoid;, score=(train=0.691, test=0.693) total time=   0.3s
+[CV 4/5] END C=10, gamma=0.01, kernel=sigmoid;, score=(train=0.694, test=0.677) total time=   0.3s
+[CV 5/5] END C=10, gamma=0.01, kernel=sigmoid;, score=(train=0.698, test=0.687) total time=   0.3s
+[CV 1/5] END C=10, gamma=0.1, kernel=linear;, score=(train=0.999, test=0.743) total time=   1.0s
+[CV 2/5] END C=10, gamma=0.1, kernel=linear;, score=(train=0.998, test=0.707) total time=   0.9s
+[CV 3/5] END C=10, gamma=0.1, kernel=linear;, score=(train=1.000, test=0.737) total time=   0.8s
+[CV 4/5] END C=10, gamma=0.1, kernel=linear;, score=(train=0.999, test=0.727) total time=   0.9s
+[CV 5/5] END C=10, gamma=0.1, kernel=linear;, score=(train=0.999, test=0.777) total time=   0.8s
+[CV 1/5] END C=10, gamma=0.1, kernel=rbf;, score=(train=1.000, test=0.890) total time=   1.0s
+[CV 2/5] END C=10, gamma=0.1, kernel=rbf;, score=(train=1.000, test=0.867) total time=   1.0s
+[CV 3/5] END C=10, gamma=0.1, kernel=rbf;, score=(train=1.000, test=0.903) total time=   1.0s
+[CV 4/5] END C=10, gamma=0.1, kernel=rbf;, score=(train=1.000, test=0.883) total time=   1.0s
+[CV 5/5] END C=10, gamma=0.1, kernel=rbf;, score=(train=1.000, test=0.883) total time=   1.0s
+[CV 1/5] END C=10, gamma=0.1, kernel=poly;, score=(train=1.000, test=0.847) total time=   0.4s
+[CV 2/5] END C=10, gamma=0.1, kernel=poly;, score=(train=1.000, test=0.863) total time=   0.4s
+[CV 3/5] END C=10, gamma=0.1, kernel=poly;, score=(train=1.000, test=0.863) total time=   0.4s
+[CV 4/5] END C=10, gamma=0.1, kernel=poly;, score=(train=1.000, test=0.890) total time=   0.4s
+[CV 5/5] END C=10, gamma=0.1, kernel=poly;, score=(train=1.000, test=0.873) total time=   0.4s
+[CV 1/5] END C=10, gamma=0.1, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 2/5] END C=10, gamma=0.1, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 3/5] END C=10, gamma=0.1, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 4/5] END C=10, gamma=0.1, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 5/5] END C=10, gamma=0.1, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 1/5] END C=10, gamma=1, kernel=linear;, score=(train=0.999, test=0.743) total time=   1.0s
+[CV 2/5] END C=10, gamma=1, kernel=linear;, score=(train=0.998, test=0.707) total time=   0.9s
+[CV 3/5] END C=10, gamma=1, kernel=linear;, score=(train=1.000, test=0.737) total time=   0.8s
+[CV 4/5] END C=10, gamma=1, kernel=linear;, score=(train=0.999, test=0.727) total time=   0.9s
+[CV 5/5] END C=10, gamma=1, kernel=linear;, score=(train=0.999, test=0.777) total time=   0.8s
+[CV 1/5] END C=10, gamma=1, kernel=rbf;, score=(train=1.000, test=0.510) total time=   1.0s
+[CV 2/5] END C=10, gamma=1, kernel=rbf;, score=(train=1.000, test=0.510) total time=   1.0s
+[CV 3/5] END C=10, gamma=1, kernel=rbf;, score=(train=1.000, test=0.510) total time=   1.0s
+[CV 4/5] END C=10, gamma=1, kernel=rbf;, score=(train=1.000, test=0.510) total time=   1.0s
+[CV 5/5] END C=10, gamma=1, kernel=rbf;, score=(train=1.000, test=0.510) total time=   1.0s
+[CV 1/5] END C=10, gamma=1, kernel=poly;, score=(train=1.000, test=0.847) total time=   0.4s
+[CV 2/5] END C=10, gamma=1, kernel=poly;, score=(train=1.000, test=0.863) total time=   0.4s
+[CV 3/5] END C=10, gamma=1, kernel=poly;, score=(train=1.000, test=0.863) total time=   0.4s
+[CV 4/5] END C=10, gamma=1, kernel=poly;, score=(train=1.000, test=0.890) total time=   0.4s
+[CV 5/5] END C=10, gamma=1, kernel=poly;, score=(train=1.000, test=0.873) total time=   0.4s
+[CV 1/5] END C=10, gamma=1, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 2/5] END C=10, gamma=1, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 3/5] END C=10, gamma=1, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 4/5] END C=10, gamma=1, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 5/5] END C=10, gamma=1, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 1/5] END C=100, gamma=1e-05, kernel=linear;, score=(train=1.000, test=0.730) total time=   1.0s
+[CV 2/5] END C=100, gamma=1e-05, kernel=linear;, score=(train=1.000, test=0.707) total time=   0.9s
+[CV 3/5] END C=100, gamma=1e-05, kernel=linear;, score=(train=1.000, test=0.723) total time=   0.8s
+[CV 4/5] END C=100, gamma=1e-05, kernel=linear;, score=(train=1.000, test=0.723) total time=   0.9s
+[CV 5/5] END C=100, gamma=1e-05, kernel=linear;, score=(train=1.000, test=0.767) total time=   0.8s
+[CV 1/5] END C=100, gamma=1e-05, kernel=rbf;, score=(train=0.766, test=0.760) total time=   0.8s
+[CV 2/5] END C=100, gamma=1e-05, kernel=rbf;, score=(train=0.770, test=0.733) total time=   0.8s
+[CV 3/5] END C=100, gamma=1e-05, kernel=rbf;, score=(train=0.767, test=0.773) total time=   0.8s
+[CV 4/5] END C=100, gamma=1e-05, kernel=rbf;, score=(train=0.777, test=0.710) total time=   0.8s
+[CV 5/5] END C=100, gamma=1e-05, kernel=rbf;, score=(train=0.767, test=0.760) total time=   0.8s
+[CV 1/5] END C=100, gamma=1e-05, kernel=poly;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 2/5] END C=100, gamma=1e-05, kernel=poly;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 3/5] END C=100, gamma=1e-05, kernel=poly;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 4/5] END C=100, gamma=1e-05, kernel=poly;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 5/5] END C=100, gamma=1e-05, kernel=poly;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 1/5] END C=100, gamma=1e-05, kernel=sigmoid;, score=(train=0.748, test=0.750) total time=   0.7s
+[CV 2/5] END C=100, gamma=1e-05, kernel=sigmoid;, score=(train=0.751, test=0.727) total time=   0.7s
+[CV 3/5] END C=100, gamma=1e-05, kernel=sigmoid;, score=(train=0.748, test=0.753) total time=   0.7s
+[CV 4/5] END C=100, gamma=1e-05, kernel=sigmoid;, score=(train=0.763, test=0.707) total time=   0.7s
+[CV 5/5] END C=100, gamma=1e-05, kernel=sigmoid;, score=(train=0.742, test=0.747) total time=   0.7s
+[CV 1/5] END C=100, gamma=0.0001, kernel=linear;, score=(train=1.000, test=0.730) total time=   1.0s
+[CV 2/5] END C=100, gamma=0.0001, kernel=linear;, score=(train=1.000, test=0.707) total time=   0.9s
+[CV 3/5] END C=100, gamma=0.0001, kernel=linear;, score=(train=1.000, test=0.723) total time=   0.8s
+[CV 4/5] END C=100, gamma=0.0001, kernel=linear;, score=(train=1.000, test=0.723) total time=   0.9s
+[CV 5/5] END C=100, gamma=0.0001, kernel=linear;, score=(train=1.000, test=0.767) total time=   0.8s
+[CV 1/5] END C=100, gamma=0.0001, kernel=rbf;, score=(train=0.838, test=0.830) total time=   0.6s
+[CV 2/5] END C=100, gamma=0.0001, kernel=rbf;, score=(train=0.847, test=0.787) total time=   0.6s
+[CV 3/5] END C=100, gamma=0.0001, kernel=rbf;, score=(train=0.837, test=0.797) total time=   0.6s
+[CV 4/5] END C=100, gamma=0.0001, kernel=rbf;, score=(train=0.853, test=0.773) total time=   0.6s
+[CV 5/5] END C=100, gamma=0.0001, kernel=rbf;, score=(train=0.847, test=0.793) total time=   0.6s
+[CV 1/5] END C=100, gamma=0.0001, kernel=poly;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 2/5] END C=100, gamma=0.0001, kernel=poly;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 3/5] END C=100, gamma=0.0001, kernel=poly;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 4/5] END C=100, gamma=0.0001, kernel=poly;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 5/5] END C=100, gamma=0.0001, kernel=poly;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 1/5] END C=100, gamma=0.0001, kernel=sigmoid;, score=(train=0.811, test=0.787) total time=   0.6s
+[CV 2/5] END C=100, gamma=0.0001, kernel=sigmoid;, score=(train=0.819, test=0.763) total time=   0.5s
+[CV 3/5] END C=100, gamma=0.0001, kernel=sigmoid;, score=(train=0.813, test=0.790) total time=   0.6s
+[CV 4/5] END C=100, gamma=0.0001, kernel=sigmoid;, score=(train=0.828, test=0.740) total time=   0.5s
+[CV 5/5] END C=100, gamma=0.0001, kernel=sigmoid;, score=(train=0.817, test=0.790) total time=   0.6s
+[CV 1/5] END C=100, gamma=0.001, kernel=linear;, score=(train=1.000, test=0.730) total time=   1.0s
+[CV 2/5] END C=100, gamma=0.001, kernel=linear;, score=(train=1.000, test=0.707) total time=   0.9s
+[CV 3/5] END C=100, gamma=0.001, kernel=linear;, score=(train=1.000, test=0.723) total time=   0.8s
+[CV 4/5] END C=100, gamma=0.001, kernel=linear;, score=(train=1.000, test=0.723) total time=   0.9s
+[CV 5/5] END C=100, gamma=0.001, kernel=linear;, score=(train=1.000, test=0.767) total time=   0.8s
+[CV 1/5] END C=100, gamma=0.001, kernel=rbf;, score=(train=0.961, test=0.850) total time=   0.5s
+[CV 2/5] END C=100, gamma=0.001, kernel=rbf;, score=(train=0.958, test=0.857) total time=   0.5s
+[CV 3/5] END C=100, gamma=0.001, kernel=rbf;, score=(train=0.961, test=0.867) total time=   0.5s
+[CV 4/5] END C=100, gamma=0.001, kernel=rbf;, score=(train=0.963, test=0.860) total time=   0.5s
+[CV 5/5] END C=100, gamma=0.001, kernel=rbf;, score=(train=0.964, test=0.850) total time=   0.5s
+[CV 1/5] END C=100, gamma=0.001, kernel=poly;, score=(train=0.858, test=0.820) total time=   0.5s
+[CV 2/5] END C=100, gamma=0.001, kernel=poly;, score=(train=0.854, test=0.797) total time=   0.5s
+[CV 3/5] END C=100, gamma=0.001, kernel=poly;, score=(train=0.846, test=0.823) total time=   0.5s
+[CV 4/5] END C=100, gamma=0.001, kernel=poly;, score=(train=0.859, test=0.800) total time=   0.5s
+[CV 5/5] END C=100, gamma=0.001, kernel=poly;, score=(train=0.858, test=0.810) total time=   0.5s
+[CV 1/5] END C=100, gamma=0.001, kernel=sigmoid;, score=(train=0.855, test=0.807) total time=   0.5s
+[CV 2/5] END C=100, gamma=0.001, kernel=sigmoid;, score=(train=0.861, test=0.773) total time=   0.5s
+[CV 3/5] END C=100, gamma=0.001, kernel=sigmoid;, score=(train=0.846, test=0.790) total time=   0.5s
+[CV 4/5] END C=100, gamma=0.001, kernel=sigmoid;, score=(train=0.862, test=0.787) total time=   0.5s
+[CV 5/5] END C=100, gamma=0.001, kernel=sigmoid;, score=(train=0.851, test=0.780) total time=   0.5s
+[CV 1/5] END C=100, gamma=0.01, kernel=linear;, score=(train=1.000, test=0.730) total time=   1.0s
+[CV 2/5] END C=100, gamma=0.01, kernel=linear;, score=(train=1.000, test=0.707) total time=   0.9s
+[CV 3/5] END C=100, gamma=0.01, kernel=linear;, score=(train=1.000, test=0.723) total time=   0.8s
+[CV 4/5] END C=100, gamma=0.01, kernel=linear;, score=(train=1.000, test=0.723) total time=   0.9s
+[CV 5/5] END C=100, gamma=0.01, kernel=linear;, score=(train=1.000, test=0.767) total time=   0.8s
+[CV 1/5] END C=100, gamma=0.01, kernel=rbf;, score=(train=1.000, test=0.887) total time=   0.7s
+[CV 2/5] END C=100, gamma=0.01, kernel=rbf;, score=(train=1.000, test=0.907) total time=   0.7s
+[CV 3/5] END C=100, gamma=0.01, kernel=rbf;, score=(train=1.000, test=0.900) total time=   0.7s
+[CV 4/5] END C=100, gamma=0.01, kernel=rbf;, score=(train=1.000, test=0.887) total time=   0.7s
+[CV 5/5] END C=100, gamma=0.01, kernel=rbf;, score=(train=1.000, test=0.900) total time=   0.7s
+[CV 1/5] END C=100, gamma=0.01, kernel=poly;, score=(train=1.000, test=0.847) total time=   0.4s
+[CV 2/5] END C=100, gamma=0.01, kernel=poly;, score=(train=1.000, test=0.863) total time=   0.4s
+[CV 3/5] END C=100, gamma=0.01, kernel=poly;, score=(train=1.000, test=0.863) total time=   0.4s
+[CV 4/5] END C=100, gamma=0.01, kernel=poly;, score=(train=1.000, test=0.890) total time=   0.4s
+[CV 5/5] END C=100, gamma=0.01, kernel=poly;, score=(train=1.000, test=0.873) total time=   0.4s
+[CV 1/5] END C=100, gamma=0.01, kernel=sigmoid;, score=(train=0.689, test=0.710) total time=   0.2s
+[CV 2/5] END C=100, gamma=0.01, kernel=sigmoid;, score=(train=0.696, test=0.667) total time=   0.2s
+[CV 3/5] END C=100, gamma=0.01, kernel=sigmoid;, score=(train=0.691, test=0.687) total time=   0.2s
+[CV 4/5] END C=100, gamma=0.01, kernel=sigmoid;, score=(train=0.695, test=0.667) total time=   0.2s
+[CV 5/5] END C=100, gamma=0.01, kernel=sigmoid;, score=(train=0.694, test=0.677) total time=   0.2s
+[CV 1/5] END C=100, gamma=0.1, kernel=linear;, score=(train=1.000, test=0.730) total time=   1.0s
+[CV 2/5] END C=100, gamma=0.1, kernel=linear;, score=(train=1.000, test=0.707) total time=   0.9s
+[CV 3/5] END C=100, gamma=0.1, kernel=linear;, score=(train=1.000, test=0.723) total time=   0.8s
+[CV 4/5] END C=100, gamma=0.1, kernel=linear;, score=(train=1.000, test=0.723) total time=   0.9s
+[CV 5/5] END C=100, gamma=0.1, kernel=linear;, score=(train=1.000, test=0.767) total time=   0.8s
+[CV 1/5] END C=100, gamma=0.1, kernel=rbf;, score=(train=1.000, test=0.890) total time=   1.0s
+[CV 2/5] END C=100, gamma=0.1, kernel=rbf;, score=(train=1.000, test=0.867) total time=   0.9s
+[CV 3/5] END C=100, gamma=0.1, kernel=rbf;, score=(train=1.000, test=0.903) total time=   1.0s
+[CV 4/5] END C=100, gamma=0.1, kernel=rbf;, score=(train=1.000, test=0.883) total time=   1.0s
+[CV 5/5] END C=100, gamma=0.1, kernel=rbf;, score=(train=1.000, test=0.883) total time=   1.0s
+[CV 1/5] END C=100, gamma=0.1, kernel=poly;, score=(train=1.000, test=0.847) total time=   0.4s
+[CV 2/5] END C=100, gamma=0.1, kernel=poly;, score=(train=1.000, test=0.863) total time=   0.4s
+[CV 3/5] END C=100, gamma=0.1, kernel=poly;, score=(train=1.000, test=0.863) total time=   0.4s
+[CV 4/5] END C=100, gamma=0.1, kernel=poly;, score=(train=1.000, test=0.890) total time=   0.4s
+[CV 5/5] END C=100, gamma=0.1, kernel=poly;, score=(train=1.000, test=0.873) total time=   0.4s
+[CV 1/5] END C=100, gamma=0.1, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 2/5] END C=100, gamma=0.1, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 3/5] END C=100, gamma=0.1, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 4/5] END C=100, gamma=0.1, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 5/5] END C=100, gamma=0.1, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 1/5] END C=100, gamma=1, kernel=linear;, score=(train=1.000, test=0.730) total time=   1.0s
+[CV 2/5] END C=100, gamma=1, kernel=linear;, score=(train=1.000, test=0.707) total time=   0.9s
+[CV 3/5] END C=100, gamma=1, kernel=linear;, score=(train=1.000, test=0.723) total time=   0.8s
+[CV 4/5] END C=100, gamma=1, kernel=linear;, score=(train=1.000, test=0.723) total time=   0.9s
+[CV 5/5] END C=100, gamma=1, kernel=linear;, score=(train=1.000, test=0.767) total time=   0.8s
+[CV 1/5] END C=100, gamma=1, kernel=rbf;, score=(train=1.000, test=0.510) total time=   1.0s
+[CV 2/5] END C=100, gamma=1, kernel=rbf;, score=(train=1.000, test=0.510) total time=   1.0s
+[CV 3/5] END C=100, gamma=1, kernel=rbf;, score=(train=1.000, test=0.510) total time=   1.0s
+[CV 4/5] END C=100, gamma=1, kernel=rbf;, score=(train=1.000, test=0.510) total time=   1.0s
+[CV 5/5] END C=100, gamma=1, kernel=rbf;, score=(train=1.000, test=0.510) total time=   1.0s
+[CV 1/5] END C=100, gamma=1, kernel=poly;, score=(train=1.000, test=0.847) total time=   0.4s
+[CV 2/5] END C=100, gamma=1, kernel=poly;, score=(train=1.000, test=0.863) total time=   0.4s
+[CV 3/5] END C=100, gamma=1, kernel=poly;, score=(train=1.000, test=0.863) total time=   0.4s
+[CV 4/5] END C=100, gamma=1, kernel=poly;, score=(train=1.000, test=0.890) total time=   0.4s
+[CV 5/5] END C=100, gamma=1, kernel=poly;, score=(train=1.000, test=0.873) total time=   0.4s
+[CV 1/5] END C=100, gamma=1, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 2/5] END C=100, gamma=1, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 3/5] END C=100, gamma=1, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 4/5] END C=100, gamma=1, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+[CV 5/5] END C=100, gamma=1, kernel=sigmoid;, score=(train=0.510, test=0.510) total time=   0.8s
+-------
+Cross validation results:
+mean_fit_time: [0.46662502 0.65282278 0.62881546 0.6481132  0.45670209 0.64410529
+ 0.62497435 0.65103483 0.46083479 0.65724773 0.64456787 0.66819029
+ 0.46951947 0.66100621 0.56844335 0.68680754 0.45785742 0.66237397
+ 0.37184949 0.6717886  0.45706062 0.65378556 0.36358705 0.62579103
+ 0.40399113 0.64093528 0.62406921 0.64717102 0.40131078 0.64360757
+ 0.62288518 0.65016551 0.40136113 0.64210763 0.63343372 0.65599236
+ 0.40159712 0.6161159  0.43700113 0.67392516 0.4017992  0.6482542
+ 0.36280355 0.65927024 0.40231433 0.65408301 0.36266069 0.61953073
+ 0.5138185  0.64219513 0.61948972 0.65028567 0.5144361  0.64131012
+ 0.62224617 0.65156894 0.51586299 0.5587636  0.6319828  0.61468463
+ 0.51384034 0.4536622  0.3677125  0.67166424 0.51452093 0.65485592
+ 0.36284032 0.65727191 0.51699572 0.65341697 0.36279426 0.61818981
+ 0.82328081 0.64201803 0.61997433 0.6501543  0.82125249 0.55608783
+ 0.63121643 0.60232553 0.82287717 0.43355045 0.55441594 0.485147
+ 0.82716146 0.52048612 0.36540627 0.23834605 0.83052473 0.65654793
+ 0.36477852 0.66085625 0.8271544  0.66032019 0.36307645 0.62086592
+ 0.83820834 0.55734382 0.61968517 0.60273752 0.836024   0.44071951
+ 0.63509583 0.47491431 0.83236008 0.38403187 0.4362289  0.42011738
+ 0.83313937 0.53136692 0.36245346 0.21580849 0.83183942 0.65265665
+ 0.36328692 0.66013517 0.83505836 0.65970263 0.36413784 0.62142043]
+std_fit_time: [0.00545466 0.00632721 0.00513925 0.00600023 0.00717475 0.00355933
+ 0.00351558 0.00311331 0.00749245 0.01007839 0.01206394 0.01105303
+ 0.00753796 0.00860143 0.00697785 0.01066638 0.00674729 0.01001293
+ 0.00605286 0.007063   0.007331   0.00067046 0.0056853  0.00360311
+ 0.00616839 0.00147538 0.00623693 0.00122081 0.00547005 0.00135013
+ 0.00167146 0.00050485 0.00541761 0.00219771 0.00062038 0.00212834
+ 0.00565075 0.00314558 0.00731559 0.00351102 0.00577491 0.00084378
+ 0.00388345 0.00495545 0.0056382  0.0010451  0.00445169 0.00049311
+ 0.01303205 0.00189254 0.00132449 0.00056267 0.01299892 0.00195046
+ 0.00255553 0.00107214 0.0126743  0.00511862 0.00077942 0.00311438
+ 0.01305898 0.00580082 0.00415461 0.0011002  0.01320517 0.00095287
+ 0.00428628 0.00098473 0.01674282 0.00060897 0.00399467 0.00116758
+ 0.06392116 0.0012279  0.00107849 0.00211354 0.06412585 0.00475744
+ 0.00256391 0.00311757 0.0632708  0.00735349 0.0047101  0.00633504
+ 0.06365509 0.00423835 0.0033358  0.00162424 0.06735568 0.00086774
+ 0.00417187 0.00082564 0.06449511 0.00434779 0.0031969  0.00219019
+ 0.06084585 0.0076224  0.00135528 0.00336257 0.05799094 0.00590706
+ 0.00223316 0.00530677 0.05807586 0.00437166 0.00698922 0.00602232
+ 0.0585127  0.00870911 0.00458205 0.0012451  0.05817473 0.00143578
+ 0.00384118 0.00062959 0.05899827 0.00074524 0.00446717 0.00094664]
+mean_score_time: [0.09680309 0.29588852 0.15268154 0.1595078  0.09636612 0.29560299
+ 0.15309386 0.16039915 0.09604611 0.28967581 0.15200257 0.15839472
+ 0.08951941 0.28729625 0.11787696 0.16097088 0.09511862 0.28307352
+ 0.04869871 0.16491227 0.09556212 0.2818203  0.05176272 0.15222726
+ 0.05289521 0.29495416 0.14653544 0.15398631 0.05203748 0.29415464
+ 0.1469368  0.15169668 0.04807968 0.2941514  0.14640155 0.15373888
+ 0.0482429  0.27545347 0.06249022 0.1564672  0.04820576 0.30130763
+ 0.04454308 0.15633612 0.04822435 0.30086861 0.04451041 0.14655499
+ 0.04171219 0.29230146 0.14754338 0.15209661 0.04176989 0.2937367
+ 0.14754419 0.1528398  0.04223285 0.23814793 0.14752922 0.13684387
+ 0.04182434 0.16713872 0.04739466 0.10802498 0.04170856 0.30097046
+ 0.04442143 0.15660162 0.04183702 0.30064335 0.04429159 0.14626374
+ 0.03850698 0.29347792 0.14676414 0.15172839 0.03870935 0.23382082
+ 0.14625955 0.13339415 0.03857169 0.14621696 0.11298442 0.0829247
+ 0.03869958 0.1347733  0.04486775 0.03500223 0.03911057 0.30250835
+ 0.04472394 0.15762658 0.03882208 0.30054679 0.04466047 0.1467802
+ 0.03886733 0.23218503 0.14637775 0.13328543 0.03885574 0.14614038
+ 0.14829373 0.07952561 0.03862634 0.11100616 0.06529536 0.05125489
+ 0.03846903 0.13475919 0.04437313 0.03198304 0.03865862 0.29924612
+ 0.04461522 0.15953431 0.03849516 0.30132298 0.04455681 0.1495779 ]
+std_score_time: [0.00263662 0.00221658 0.00027608 0.00068719 0.00191339 0.00069211
+ 0.0006256  0.00231263 0.00155119 0.0097597  0.00142317 0.00092984
+ 0.00065244 0.01145522 0.00182926 0.00054675 0.00163175 0.0023085
+ 0.00074675 0.00246584 0.00149929 0.00078878 0.000317   0.00073854
+ 0.00070484 0.0038819  0.00050857 0.00231462 0.00059055 0.00324827
+ 0.00090624 0.00049398 0.00047241 0.00031713 0.00024086 0.00070558
+ 0.00036105 0.00173349 0.00265476 0.00023131 0.00043755 0.00110481
+ 0.00023274 0.00025113 0.00027162 0.00074938 0.00022925 0.00042412
+ 0.00062177 0.00050698 0.00127967 0.00040121 0.0005424  0.00074323
+ 0.00071405 0.00067536 0.0002201  0.00330704 0.00017985 0.00091209
+ 0.0002811  0.01236833 0.00049176 0.00252742 0.00030357 0.00127168
+ 0.00016469 0.00035498 0.00062414 0.00070145 0.00027613 0.00040541
+ 0.00095456 0.0007499  0.0007682  0.00018865 0.00085528 0.00333246
+ 0.00019763 0.00177275 0.00100194 0.00457465 0.00231862 0.00344579
+ 0.00097755 0.00254104 0.00027929 0.00020321 0.00112346 0.00086621
+ 0.00023988 0.00112683 0.00089419 0.00104729 0.00049092 0.00039469
+ 0.00094181 0.00269047 0.00114943 0.00160381 0.00128253 0.00365066
+ 0.00370928 0.00296083 0.00098313 0.00556217 0.00297144 0.000723
+ 0.00094235 0.00217872 0.00025861 0.00016313 0.00104858 0.00111287
+ 0.00017059 0.00415239 0.0009562  0.00072738 0.00024184 0.00402942]
+param_C: [0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01
+ 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.1 0.1 0.1 0.1 0.1 0.1
+ 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 10 10 10 10 10 10 10 10 10
+ 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 100 100 100 100 100 100 100
+ 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100]
+param_gamma: [1e-05 1e-05 1e-05 1e-05 0.0001 0.0001 0.0001 0.0001 0.001 0.001 0.001
+ 0.001 0.01 0.01 0.01 0.01 0.1 0.1 0.1 0.1 1 1 1 1 1e-05 1e-05 1e-05 1e-05
+ 0.0001 0.0001 0.0001 0.0001 0.001 0.001 0.001 0.001 0.01 0.01 0.01 0.01
+ 0.1 0.1 0.1 0.1 1 1 1 1 1e-05 1e-05 1e-05 1e-05 0.0001 0.0001 0.0001
+ 0.0001 0.001 0.001 0.001 0.001 0.01 0.01 0.01 0.01 0.1 0.1 0.1 0.1 1 1 1
+ 1 1e-05 1e-05 1e-05 1e-05 0.0001 0.0001 0.0001 0.0001 0.001 0.001 0.001
+ 0.001 0.01 0.01 0.01 0.01 0.1 0.1 0.1 0.1 1 1 1 1 1e-05 1e-05 1e-05 1e-05
+ 0.0001 0.0001 0.0001 0.0001 0.001 0.001 0.001 0.001 0.01 0.01 0.01 0.01
+ 0.1 0.1 0.1 0.1 1 1 1 1]
+param_kernel: ['linear' 'rbf' 'poly' 'sigmoid' 'linear' 'rbf' 'poly' 'sigmoid' 'linear'
+ 'rbf' 'poly' 'sigmoid' 'linear' 'rbf' 'poly' 'sigmoid' 'linear' 'rbf'
+ 'poly' 'sigmoid' 'linear' 'rbf' 'poly' 'sigmoid' 'linear' 'rbf' 'poly'
+ 'sigmoid' 'linear' 'rbf' 'poly' 'sigmoid' 'linear' 'rbf' 'poly' 'sigmoid'
+ 'linear' 'rbf' 'poly' 'sigmoid' 'linear' 'rbf' 'poly' 'sigmoid' 'linear'
+ 'rbf' 'poly' 'sigmoid' 'linear' 'rbf' 'poly' 'sigmoid' 'linear' 'rbf'
+ 'poly' 'sigmoid' 'linear' 'rbf' 'poly' 'sigmoid' 'linear' 'rbf' 'poly'
+ 'sigmoid' 'linear' 'rbf' 'poly' 'sigmoid' 'linear' 'rbf' 'poly' 'sigmoid'
+ 'linear' 'rbf' 'poly' 'sigmoid' 'linear' 'rbf' 'poly' 'sigmoid' 'linear'
+ 'rbf' 'poly' 'sigmoid' 'linear' 'rbf' 'poly' 'sigmoid' 'linear' 'rbf'
+ 'poly' 'sigmoid' 'linear' 'rbf' 'poly' 'sigmoid' 'linear' 'rbf' 'poly'
+ 'sigmoid' 'linear' 'rbf' 'poly' 'sigmoid' 'linear' 'rbf' 'poly' 'sigmoid'
+ 'linear' 'rbf' 'poly' 'sigmoid' 'linear' 'rbf' 'poly' 'sigmoid' 'linear'
+ 'rbf' 'poly' 'sigmoid']
+params: [{'C': 0.01, 'gamma': 1e-05, 'kernel': 'linear'}, {'C': 0.01, 'gamma': 1e-05, 'kernel': 'rbf'}, {'C': 0.01, 'gamma': 1e-05, 'kernel': 'poly'}, {'C': 0.01, 'gamma': 1e-05, 'kernel': 'sigmoid'}, {'C': 0.01, 'gamma': 0.0001, 'kernel': 'linear'}, {'C': 0.01, 'gamma': 0.0001, 'kernel': 'rbf'}, {'C': 0.01, 'gamma': 0.0001, 'kernel': 'poly'}, {'C': 0.01, 'gamma': 0.0001, 'kernel': 'sigmoid'}, {'C': 0.01, 'gamma': 0.001, 'kernel': 'linear'}, {'C': 0.01, 'gamma': 0.001, 'kernel': 'rbf'}, {'C': 0.01, 'gamma': 0.001, 'kernel': 'poly'}, {'C': 0.01, 'gamma': 0.001, 'kernel': 'sigmoid'}, {'C': 0.01, 'gamma': 0.01, 'kernel': 'linear'}, {'C': 0.01, 'gamma': 0.01, 'kernel': 'rbf'}, {'C': 0.01, 'gamma': 0.01, 'kernel': 'poly'}, {'C': 0.01, 'gamma': 0.01, 'kernel': 'sigmoid'}, {'C': 0.01, 'gamma': 0.1, 'kernel': 'linear'}, {'C': 0.01, 'gamma': 0.1, 'kernel': 'rbf'}, {'C': 0.01, 'gamma': 0.1, 'kernel': 'poly'}, {'C': 0.01, 'gamma': 0.1, 'kernel': 'sigmoid'}, {'C': 0.01, 'gamma': 1, 'kernel': 'linear'}, {'C': 0.01, 'gamma': 1, 'kernel': 'rbf'}, {'C': 0.01, 'gamma': 1, 'kernel': 'poly'}, {'C': 0.01, 'gamma': 1, 'kernel': 'sigmoid'}, {'C': 0.1, 'gamma': 1e-05, 'kernel': 'linear'}, {'C': 0.1, 'gamma': 1e-05, 'kernel': 'rbf'}, {'C': 0.1, 'gamma': 1e-05, 'kernel': 'poly'}, {'C': 0.1, 'gamma': 1e-05, 'kernel': 'sigmoid'}, {'C': 0.1, 'gamma': 0.0001, 'kernel': 'linear'}, {'C': 0.1, 'gamma': 0.0001, 'kernel': 'rbf'}, {'C': 0.1, 'gamma': 0.0001, 'kernel': 'poly'}, {'C': 0.1, 'gamma': 0.0001, 'kernel': 'sigmoid'}, {'C': 0.1, 'gamma': 0.001, 'kernel': 'linear'}, {'C': 0.1, 'gamma': 0.001, 'kernel': 'rbf'}, {'C': 0.1, 'gamma': 0.001, 'kernel': 'poly'}, {'C': 0.1, 'gamma': 0.001, 'kernel': 'sigmoid'}, {'C': 0.1, 'gamma': 0.01, 'kernel': 'linear'}, {'C': 0.1, 'gamma': 0.01, 'kernel': 'rbf'}, {'C': 0.1, 'gamma': 0.01, 'kernel': 'poly'}, {'C': 0.1, 'gamma': 0.01, 'kernel': 'sigmoid'}, {'C': 0.1, 'gamma': 0.1, 'kernel': 'linear'}, {'C': 0.1, 'gamma': 0.1, 'kernel': 'rbf'}, {'C': 0.1, 'gamma': 0.1, 'kernel': 'poly'}, {'C': 0.1, 'gamma': 0.1, 'kernel': 'sigmoid'}, {'C': 0.1, 'gamma': 1, 'kernel': 'linear'}, {'C': 0.1, 'gamma': 1, 'kernel': 'rbf'}, {'C': 0.1, 'gamma': 1, 'kernel': 'poly'}, {'C': 0.1, 'gamma': 1, 'kernel': 'sigmoid'}, {'C': 1, 'gamma': 1e-05, 'kernel': 'linear'}, {'C': 1, 'gamma': 1e-05, 'kernel': 'rbf'}, {'C': 1, 'gamma': 1e-05, 'kernel': 'poly'}, {'C': 1, 'gamma': 1e-05, 'kernel': 'sigmoid'}, {'C': 1, 'gamma': 0.0001, 'kernel': 'linear'}, {'C': 1, 'gamma': 0.0001, 'kernel': 'rbf'}, {'C': 1, 'gamma': 0.0001, 'kernel': 'poly'}, {'C': 1, 'gamma': 0.0001, 'kernel': 'sigmoid'}, {'C': 1, 'gamma': 0.001, 'kernel': 'linear'}, {'C': 1, 'gamma': 0.001, 'kernel': 'rbf'}, {'C': 1, 'gamma': 0.001, 'kernel': 'poly'}, {'C': 1, 'gamma': 0.001, 'kernel': 'sigmoid'}, {'C': 1, 'gamma': 0.01, 'kernel': 'linear'}, {'C': 1, 'gamma': 0.01, 'kernel': 'rbf'}, {'C': 1, 'gamma': 0.01, 'kernel': 'poly'}, {'C': 1, 'gamma': 0.01, 'kernel': 'sigmoid'}, {'C': 1, 'gamma': 0.1, 'kernel': 'linear'}, {'C': 1, 'gamma': 0.1, 'kernel': 'rbf'}, {'C': 1, 'gamma': 0.1, 'kernel': 'poly'}, {'C': 1, 'gamma': 0.1, 'kernel': 'sigmoid'}, {'C': 1, 'gamma': 1, 'kernel': 'linear'}, {'C': 1, 'gamma': 1, 'kernel': 'rbf'}, {'C': 1, 'gamma': 1, 'kernel': 'poly'}, {'C': 1, 'gamma': 1, 'kernel': 'sigmoid'}, {'C': 10, 'gamma': 1e-05, 'kernel': 'linear'}, {'C': 10, 'gamma': 1e-05, 'kernel': 'rbf'}, {'C': 10, 'gamma': 1e-05, 'kernel': 'poly'}, {'C': 10, 'gamma': 1e-05, 'kernel': 'sigmoid'}, {'C': 10, 'gamma': 0.0001, 'kernel': 'linear'}, {'C': 10, 'gamma': 0.0001, 'kernel': 'rbf'}, {'C': 10, 'gamma': 0.0001, 'kernel': 'poly'}, {'C': 10, 'gamma': 0.0001, 'kernel': 'sigmoid'}, {'C': 10, 'gamma': 0.001, 'kernel': 'linear'}, {'C': 10, 'gamma': 0.001, 'kernel': 'rbf'}, {'C': 10, 'gamma': 0.001, 'kernel': 'poly'}, {'C': 10, 'gamma': 0.001, 'kernel': 'sigmoid'}, {'C': 10, 'gamma': 0.01, 'kernel': 'linear'}, {'C': 10, 'gamma': 0.01, 'kernel': 'rbf'}, {'C': 10, 'gamma': 0.01, 'kernel': 'poly'}, {'C': 10, 'gamma': 0.01, 'kernel': 'sigmoid'}, {'C': 10, 'gamma': 0.1, 'kernel': 'linear'}, {'C': 10, 'gamma': 0.1, 'kernel': 'rbf'}, {'C': 10, 'gamma': 0.1, 'kernel': 'poly'}, {'C': 10, 'gamma': 0.1, 'kernel': 'sigmoid'}, {'C': 10, 'gamma': 1, 'kernel': 'linear'}, {'C': 10, 'gamma': 1, 'kernel': 'rbf'}, {'C': 10, 'gamma': 1, 'kernel': 'poly'}, {'C': 10, 'gamma': 1, 'kernel': 'sigmoid'}, {'C': 100, 'gamma': 1e-05, 'kernel': 'linear'}, {'C': 100, 'gamma': 1e-05, 'kernel': 'rbf'}, {'C': 100, 'gamma': 1e-05, 'kernel': 'poly'}, {'C': 100, 'gamma': 1e-05, 'kernel': 'sigmoid'}, {'C': 100, 'gamma': 0.0001, 'kernel': 'linear'}, {'C': 100, 'gamma': 0.0001, 'kernel': 'rbf'}, {'C': 100, 'gamma': 0.0001, 'kernel': 'poly'}, {'C': 100, 'gamma': 0.0001, 'kernel': 'sigmoid'}, {'C': 100, 'gamma': 0.001, 'kernel': 'linear'}, {'C': 100, 'gamma': 0.001, 'kernel': 'rbf'}, {'C': 100, 'gamma': 0.001, 'kernel': 'poly'}, {'C': 100, 'gamma': 0.001, 'kernel': 'sigmoid'}, {'C': 100, 'gamma': 0.01, 'kernel': 'linear'}, {'C': 100, 'gamma': 0.01, 'kernel': 'rbf'}, {'C': 100, 'gamma': 0.01, 'kernel': 'poly'}, {'C': 100, 'gamma': 0.01, 'kernel': 'sigmoid'}, {'C': 100, 'gamma': 0.1, 'kernel': 'linear'}, {'C': 100, 'gamma': 0.1, 'kernel': 'rbf'}, {'C': 100, 'gamma': 0.1, 'kernel': 'poly'}, {'C': 100, 'gamma': 0.1, 'kernel': 'sigmoid'}, {'C': 100, 'gamma': 1, 'kernel': 'linear'}, {'C': 100, 'gamma': 1, 'kernel': 'rbf'}, {'C': 100, 'gamma': 1, 'kernel': 'poly'}, {'C': 100, 'gamma': 1, 'kernel': 'sigmoid'}]
+split0_test_score: [0.78666667 0.51       0.51       0.51       0.78666667 0.51
+ 0.51       0.51       0.78666667 0.51       0.51       0.51
+ 0.78666667 0.51       0.76333333 0.51       0.78666667 0.51
+ 0.84666667 0.51       0.78666667 0.51       0.84666667 0.51
+ 0.83666667 0.51       0.51       0.51       0.83666667 0.51
+ 0.51       0.51       0.83666667 0.51       0.51       0.51
+ 0.83666667 0.77666667 0.82       0.51       0.83666667 0.51
+ 0.84666667 0.51       0.83666667 0.51       0.84666667 0.51
+ 0.79666667 0.51       0.51       0.51       0.79666667 0.51
+ 0.51       0.51       0.79666667 0.76       0.55       0.74666667
+ 0.79666667 0.87       0.85       0.32666667 0.79666667 0.88666667
+ 0.84666667 0.51       0.79666667 0.51       0.84666667 0.51
+ 0.74333333 0.51       0.51       0.51       0.74333333 0.76
+ 0.51       0.75       0.74333333 0.85666667 0.76333333 0.78
+ 0.74333333 0.87333333 0.84666667 0.71       0.74333333 0.89
+ 0.84666667 0.51       0.74333333 0.51       0.84666667 0.51
+ 0.73       0.76       0.51       0.75       0.73       0.83
+ 0.51       0.78666667 0.73       0.85       0.82       0.80666667
+ 0.73       0.88666667 0.84666667 0.71       0.73       0.89
+ 0.84666667 0.51       0.73       0.51       0.84666667 0.51      ]
+split1_test_score: [0.76333333 0.51       0.51       0.51       0.76333333 0.51
+ 0.51       0.51       0.76333333 0.51       0.51       0.51
+ 0.76333333 0.51       0.72666667 0.51       0.76333333 0.51
+ 0.86333333 0.51       0.76333333 0.51       0.86333333 0.51
+ 0.81       0.51       0.51       0.51       0.81       0.51
+ 0.51       0.51       0.81       0.51       0.51       0.51
+ 0.81       0.74666667 0.79666667 0.51333333 0.81       0.51
+ 0.86333333 0.51       0.81       0.51       0.86333333 0.51
+ 0.75333333 0.51       0.51       0.51       0.75333333 0.51
+ 0.51       0.51       0.75333333 0.74       0.54666667 0.72333333
+ 0.75333333 0.87333333 0.88       0.37       0.75333333 0.86
+ 0.86333333 0.51       0.75333333 0.51       0.86333333 0.51
+ 0.70666667 0.51       0.51       0.51       0.70666667 0.73666667
+ 0.51       0.72666667 0.70666667 0.82       0.72666667 0.76
+ 0.70666667 0.91       0.86333333 0.67       0.70666667 0.86666667
+ 0.86333333 0.51       0.70666667 0.51       0.86333333 0.51
+ 0.70666667 0.73333333 0.51       0.72666667 0.70666667 0.78666667
+ 0.51       0.76333333 0.70666667 0.85666667 0.79666667 0.77333333
+ 0.70666667 0.90666667 0.86333333 0.66666667 0.70666667 0.86666667
+ 0.86333333 0.51       0.70666667 0.51       0.86333333 0.51      ]
+split2_test_score: [0.79       0.51       0.51       0.51       0.79       0.51
+ 0.51       0.51       0.79       0.51       0.51       0.51
+ 0.79       0.51       0.72666667 0.51       0.79       0.51
+ 0.86333333 0.51       0.79       0.51       0.86333333 0.51
+ 0.81666667 0.51       0.51       0.51       0.81666667 0.51
+ 0.51       0.51       0.81666667 0.51       0.51       0.51
+ 0.81666667 0.78333333 0.82333333 0.51       0.81666667 0.51
+ 0.86333333 0.51       0.81666667 0.51       0.86333333 0.51
+ 0.78       0.51       0.51       0.51       0.78       0.51
+ 0.51       0.51       0.78       0.77333333 0.54333333 0.75666667
+ 0.78       0.88333333 0.9        0.33666667 0.78       0.90333333
+ 0.86333333 0.51       0.78       0.51       0.86333333 0.51
+ 0.73666667 0.51       0.51       0.51       0.73666667 0.77333333
+ 0.51       0.75333333 0.73666667 0.82       0.72666667 0.79
+ 0.73666667 0.9        0.86333333 0.69333333 0.73666667 0.90333333
+ 0.86333333 0.51       0.73666667 0.51       0.86333333 0.51
+ 0.72333333 0.77333333 0.51       0.75333333 0.72333333 0.79666667
+ 0.51       0.79       0.72333333 0.86666667 0.82333333 0.79
+ 0.72333333 0.9        0.86333333 0.68666667 0.72333333 0.90333333
+ 0.86333333 0.51       0.72333333 0.51       0.86333333 0.51      ]
+split3_test_score: [0.74       0.51       0.51       0.51       0.74       0.51
+ 0.51       0.51       0.74       0.51       0.51       0.51
+ 0.74       0.51       0.72       0.51       0.74       0.51
+ 0.89       0.51       0.74       0.51       0.89       0.51
+ 0.8        0.51       0.51       0.51       0.8        0.51
+ 0.51       0.51       0.8        0.51       0.51       0.51
+ 0.8        0.74666667 0.8        0.51333333 0.8        0.51
+ 0.89       0.51       0.8        0.51       0.89       0.51
+ 0.77666667 0.51       0.51       0.51       0.77666667 0.51
+ 0.51       0.51       0.77666667 0.71666667 0.55666667 0.70666667
+ 0.77666667 0.84666667 0.88       0.31       0.77666667 0.88666667
+ 0.89       0.51       0.77666667 0.51       0.89       0.51
+ 0.72666667 0.51       0.51       0.51       0.72666667 0.71333333
+ 0.51       0.70666667 0.72666667 0.81       0.72       0.72666667
+ 0.72666667 0.88666667 0.89       0.67666667 0.72666667 0.88333333
+ 0.89       0.51       0.72666667 0.51       0.89       0.51
+ 0.72333333 0.71       0.51       0.70666667 0.72333333 0.77333333
+ 0.51       0.74       0.72333333 0.86       0.8        0.78666667
+ 0.72333333 0.88666667 0.89       0.66666667 0.72333333 0.88333333
+ 0.89       0.51       0.72333333 0.51       0.89       0.51      ]
+split4_test_score: [0.79       0.51       0.51       0.51       0.79       0.51
+ 0.51       0.51       0.79       0.51       0.51       0.51
+ 0.79       0.51       0.75       0.51       0.79       0.51
+ 0.87333333 0.51       0.79       0.51       0.87333333 0.51
+ 0.79333333 0.51       0.51       0.51       0.79333333 0.51
+ 0.51       0.51       0.79333333 0.51333333 0.51       0.51
+ 0.79333333 0.75333333 0.81       0.50666667 0.79333333 0.51
+ 0.87333333 0.51       0.79333333 0.51       0.87333333 0.51
+ 0.78666667 0.51       0.51       0.51       0.78666667 0.51666667
+ 0.51       0.51       0.78666667 0.76333333 0.55666667 0.74666667
+ 0.78666667 0.87333333 0.86333333 0.34       0.78666667 0.88
+ 0.87333333 0.51       0.78666667 0.51       0.87333333 0.51
+ 0.77666667 0.51666667 0.51       0.51       0.77666667 0.76
+ 0.51       0.74666667 0.77666667 0.83333333 0.75       0.78333333
+ 0.77666667 0.9        0.87333333 0.68666667 0.77666667 0.88333333
+ 0.87333333 0.51       0.77666667 0.51       0.87333333 0.51
+ 0.76666667 0.76       0.51       0.74666667 0.76666667 0.79333333
+ 0.51       0.79       0.76666667 0.85       0.81       0.78
+ 0.76666667 0.9        0.87333333 0.67666667 0.76666667 0.88333333
+ 0.87333333 0.51       0.76666667 0.51       0.87333333 0.51      ]
+mean_test_score: [0.774      0.51       0.51       0.51       0.774      0.51
+ 0.51       0.51       0.774      0.51       0.51       0.51
+ 0.774      0.51       0.73733333 0.51       0.774      0.51
+ 0.86733333 0.51       0.774      0.51       0.86733333 0.51
+ 0.81133333 0.51       0.51       0.51       0.81133333 0.51
+ 0.51       0.51       0.81133333 0.51066667 0.51       0.51
+ 0.81133333 0.76133333 0.81       0.51066667 0.81133333 0.51
+ 0.86733333 0.51       0.81133333 0.51       0.86733333 0.51
+ 0.77866667 0.51       0.51       0.51       0.77866667 0.51133333
+ 0.51       0.51       0.77866667 0.75066667 0.55066667 0.736
+ 0.77866667 0.86933333 0.87466667 0.33666667 0.77866667 0.88333333
+ 0.86733333 0.51       0.77866667 0.51       0.86733333 0.51
+ 0.738      0.51133333 0.51       0.51       0.738      0.74866667
+ 0.51       0.73666667 0.738      0.828      0.73733333 0.768
+ 0.738      0.894      0.86733333 0.68733333 0.738      0.88533333
+ 0.86733333 0.51       0.738      0.51       0.86733333 0.51
+ 0.73       0.74733333 0.51       0.73666667 0.73       0.796
+ 0.51       0.774      0.73       0.85666667 0.81       0.78733333
+ 0.73       0.896      0.86733333 0.68133333 0.73       0.88533333
+ 0.86733333 0.51       0.73       0.51       0.86733333 0.51      ]
+std_test_score: [0.01970899 0.         0.         0.         0.01970899 0.
+ 0.         0.         0.01970899 0.         0.         0.
+ 0.01970899 0.         0.01651935 0.         0.01970899 0.
+ 0.01420485 0.         0.01970899 0.         0.01420485 0.
+ 0.0149963  0.         0.         0.         0.0149963  0.
+ 0.         0.         0.0149963  0.00133333 0.         0.
+ 0.0149963  0.01557776 0.01054093 0.00249444 0.0149963  0.
+ 0.01420485 0.         0.0149963  0.         0.01420485 0.
+ 0.01439136 0.         0.         0.         0.01439136 0.00266667
+ 0.         0.         0.01439136 0.02015496 0.00533333 0.01830604
+ 0.01439136 0.01218378 0.01694435 0.01966384 0.01439136 0.01398412
+ 0.01420485 0.         0.01439136 0.         0.01420485 0.
+ 0.0229589  0.00266667 0.         0.         0.0229589  0.02124984
+ 0.         0.01763834 0.0229589  0.01613829 0.01651935 0.0229589
+ 0.0229589  0.01271919 0.01420485 0.01388844 0.0229589  0.01185093
+ 0.01420485 0.         0.0229589  0.         0.01420485 0.
+ 0.01988858 0.02274496 0.         0.01763834 0.01988858 0.01878534
+ 0.         0.01970899 0.01988858 0.00632456 0.01054093 0.01123487
+ 0.01988858 0.008      0.01420485 0.01613829 0.01988858 0.01185093
+ 0.01420485 0.         0.01988858 0.         0.01420485 0.        ]
+rank_test_score: [ 38  74  74  74  38  74  74  74  38  74  74  74  38  74  56  74  38  74
+   8  74  38  74   8  74  22  74  74  74  22  74  74  74  22  73  74  74
+  22  46  28  72  22  74   8  74  22  74   8  74  32  74  74  74  32  70
+  74  74  32  47  69  60  32   7   6 120  32   5   8  74  32  74   8  74
+  50  70  74  74  50  48  74  58  50  21  56  45  50   2   8  67  50   3
+   8  74  50  74   8  74  61  49  74  58  61  30  74  38  61  20  28  31
+  61   1   8  68  61   3   8  74  61  74   8  74]
+split0_train_score: [0.81083333 0.51       0.51       0.51       0.81083333 0.51
+ 0.51       0.51       0.81083333 0.51       0.51       0.51
+ 0.81083333 0.51       0.75166667 0.51       0.81083333 0.51
+ 1.         0.51       0.81083333 0.51       1.         0.51
+ 0.8875     0.51       0.51       0.51       0.8875     0.51
+ 0.51       0.51       0.8875     0.51083333 0.51       0.51
+ 0.8875     0.78083333 0.8575     0.51       0.8875     0.51
+ 1.         0.51       0.8875     0.51       1.         0.51
+ 0.94833333 0.51       0.51       0.51       0.94833333 0.51166667
+ 0.51       0.51       0.94833333 0.77833333 0.55583333 0.74083333
+ 0.94833333 0.92083333 0.9725     0.33583333 0.94833333 1.
+ 1.         0.51       0.94833333 1.         1.         0.51
+ 0.99916667 0.5125     0.51       0.51       0.99916667 0.76583333
+ 0.51       0.7475     0.99916667 0.8725     0.75166667 0.80416667
+ 0.99916667 1.         1.         0.69333333 0.99916667 1.
+ 1.         0.51       0.99916667 1.         1.         0.51
+ 1.         0.76583333 0.51       0.74833333 1.         0.8375
+ 0.51       0.81083333 1.         0.96083333 0.8575     0.855
+ 1.         1.         1.         0.68916667 1.         1.
+ 1.         0.51       1.         1.         1.         0.51      ]
+split1_train_score: [0.82       0.51       0.51       0.51       0.82       0.51
+ 0.51       0.51       0.82       0.51       0.51       0.51
+ 0.82       0.51       0.75833333 0.51       0.82       0.51
+ 1.         0.51       0.82       0.51       1.         0.51
+ 0.88916667 0.51       0.51       0.51       0.88916667 0.51
+ 0.51       0.51       0.88916667 0.51166667 0.51       0.51
+ 0.88916667 0.78833333 0.85416667 0.51166667 0.88916667 0.51
+ 1.         0.51       0.88916667 0.51       1.         0.51
+ 0.95416667 0.51       0.51       0.51       0.95416667 0.52083333
+ 0.51       0.51       0.95416667 0.78       0.56666667 0.74833333
+ 0.95416667 0.91583333 0.9725     0.3325     0.95416667 1.
+ 1.         0.51       0.95416667 1.         1.         0.51
+ 0.99833333 0.52083333 0.51       0.51       0.99833333 0.77166667
+ 0.51       0.75083333 0.99833333 0.86583333 0.75833333 0.81083333
+ 0.99833333 0.99916667 1.         0.69416667 0.99833333 1.
+ 1.         0.51       0.99833333 1.         1.         0.51
+ 1.         0.77       0.51       0.75083333 1.         0.84666667
+ 0.51       0.81916667 1.         0.95833333 0.85416667 0.86083333
+ 1.         1.         1.         0.69583333 1.         1.
+ 1.         0.51       1.         1.         1.         0.51      ]
+split2_train_score: [0.81416667 0.51       0.51       0.51       0.81416667 0.51
+ 0.51       0.51       0.81416667 0.51       0.51       0.51
+ 0.81416667 0.51       0.75166667 0.51       0.81416667 0.51
+ 1.         0.51       0.81416667 0.51       1.         0.51
+ 0.87583333 0.51       0.51       0.51       0.87583333 0.51
+ 0.51       0.51       0.87583333 0.51083333 0.51       0.51
+ 0.87583333 0.78083333 0.84583333 0.51083333 0.87583333 0.51
+ 1.         0.51       0.87583333 0.51       1.         0.51
+ 0.95       0.51       0.51       0.51       0.95       0.51083333
+ 0.51       0.51       0.95       0.77416667 0.55333333 0.74833333
+ 0.95       0.92       0.97166667 0.3425     0.95       1.
+ 1.         0.51       0.95       1.         1.         0.51
+ 1.         0.51083333 0.51       0.51       1.         0.76833333
+ 0.51       0.74833333 1.         0.87       0.75166667 0.80833333
+ 1.         0.99916667 1.         0.69083333 1.         1.
+ 1.         0.51       1.         1.         1.         0.51
+ 1.         0.7675     0.51       0.74833333 1.         0.83666667
+ 0.51       0.81333333 1.         0.96083333 0.84583333 0.84583333
+ 1.         1.         1.         0.69083333 1.         1.
+ 1.         0.51       1.         1.         1.         0.51      ]
+split3_train_score: [0.8275     0.51       0.51       0.51       0.8275     0.51
+ 0.51       0.51       0.8275     0.51       0.51       0.51
+ 0.8275     0.51       0.76083333 0.51       0.8275     0.51
+ 1.         0.51       0.8275     0.51       1.         0.51
+ 0.88416667 0.51       0.51       0.51       0.88416667 0.51
+ 0.51       0.51       0.88416667 0.51166667 0.51       0.51
+ 0.88416667 0.79166667 0.85916667 0.51083333 0.88416667 0.51
+ 1.         0.51       0.88416667 0.51       1.         0.51
+ 0.94666667 0.51       0.51       0.51       0.94666667 0.51333333
+ 0.51       0.51       0.94666667 0.78583333 0.555      0.7625
+ 0.94666667 0.91916667 0.97333333 0.34333333 0.94666667 1.
+ 1.         0.51       0.94666667 1.         1.         0.51
+ 0.99916667 0.51416667 0.51       0.51       0.99916667 0.77833333
+ 0.51       0.76333333 0.99916667 0.875      0.76083333 0.82166667
+ 0.99916667 1.         1.         0.69416667 0.99916667 1.
+ 1.         0.51       0.99916667 1.         1.         0.51
+ 1.         0.7775     0.51       0.76333333 1.         0.85333333
+ 0.51       0.8275     1.         0.96333333 0.85916667 0.86166667
+ 1.         1.         1.         0.695      1.         1.
+ 1.         0.51       1.         1.         1.         0.51      ]
+split4_train_score: [0.81666667 0.51       0.51       0.51       0.81666667 0.51
+ 0.51       0.51       0.81666667 0.51       0.51       0.51
+ 0.81666667 0.51       0.75333333 0.51       0.81666667 0.51
+ 1.         0.51       0.81666667 0.51       1.         0.51
+ 0.87666667 0.51       0.51       0.51       0.87666667 0.51
+ 0.51       0.51       0.87666667 0.51       0.51       0.51
+ 0.87666667 0.78       0.85833333 0.51083333 0.87666667 0.51
+ 1.         0.51       0.87666667 0.51       1.         0.51
+ 0.95083333 0.51       0.51       0.51       0.95083333 0.51166667
+ 0.51       0.51       0.95083333 0.77166667 0.56       0.74333333
+ 0.95083333 0.92166667 0.975      0.33666667 0.95083333 1.
+ 1.         0.51       0.95083333 1.         1.         0.51
+ 0.99916667 0.51166667 0.51       0.51       0.99916667 0.76833333
+ 0.51       0.74166667 0.99916667 0.86916667 0.75333333 0.81
+ 0.99916667 1.         1.         0.6975     0.99916667 1.
+ 1.         0.51       0.99916667 1.         1.         0.51
+ 1.         0.7675     0.51       0.74166667 1.         0.84666667
+ 0.51       0.81666667 1.         0.96416667 0.85833333 0.85083333
+ 1.         1.         1.         0.69416667 1.         1.
+ 1.         0.51       1.         1.         1.         0.51      ]
+mean_train_score: [0.81783333 0.51       0.51       0.51       0.81783333 0.51
+ 0.51       0.51       0.81783333 0.51       0.51       0.51
+ 0.81783333 0.51       0.75516667 0.51       0.81783333 0.51
+ 1.         0.51       0.81783333 0.51       1.         0.51
+ 0.88266667 0.51       0.51       0.51       0.88266667 0.51
+ 0.51       0.51       0.88266667 0.511      0.51       0.51
+ 0.88266667 0.78433333 0.855      0.51083333 0.88266667 0.51
+ 1.         0.51       0.88266667 0.51       1.         0.51
+ 0.95       0.51       0.51       0.51       0.95       0.51366667
+ 0.51       0.51       0.95       0.778      0.55816667 0.74866667
+ 0.95       0.9195     0.973      0.33816667 0.95       1.
+ 1.         0.51       0.95       1.         1.         0.51
+ 0.99916667 0.514      0.51       0.51       0.99916667 0.7705
+ 0.51       0.75033333 0.99916667 0.8705     0.75516667 0.811
+ 0.99916667 0.99966667 1.         0.694      0.99916667 1.
+ 1.         0.51       0.99916667 1.         1.         0.51
+ 1.         0.76966667 0.51       0.7505     1.         0.84416667
+ 0.51       0.8175     1.         0.9615     0.855      0.85483333
+ 1.         1.         1.         0.693      1.         1.
+ 1.         0.51       1.         1.         1.         0.51      ]
+std_train_score: [0.00569112 0.         0.         0.         0.00569112 0.
+ 0.         0.         0.00569112 0.         0.         0.
+ 0.00569112 0.         0.00374166 0.         0.00569112 0.
+ 0.         0.         0.00569112 0.         0.         0.
+ 0.00548736 0.         0.         0.         0.00548736 0.
+ 0.         0.         0.00548736 0.00062361 0.         0.
+ 0.00548736 0.00475511 0.00488763 0.00052705 0.00548736 0.
+ 0.         0.         0.00548736 0.         0.         0.
+ 0.00252763 0.         0.         0.         0.00252763 0.00367423
+ 0.         0.         0.00252763 0.00490465 0.00478423 0.00750185
+ 0.00252763 0.00201384 0.00113039 0.00412984 0.00252763 0.
+ 0.         0.         0.00252763 0.         0.         0.
+ 0.00052705 0.00359011 0.         0.         0.00052705 0.00433333
+ 0.         0.00716085 0.00052705 0.00310018 0.00374166 0.00580708
+ 0.00052705 0.00040825 0.         0.00213437 0.00052705 0.
+ 0.         0.         0.00052705 0.         0.         0.
+ 0.         0.00413656 0.         0.00710243 0.         0.00628048
+ 0.         0.0057494  0.         0.00206828 0.00488763 0.00599537
+ 0.         0.         0.         0.00256038 0.         0.
+ 0.         0.         0.         0.         0.         0.        ]
+-------
+Best params: 
+{'C': 100, 'gamma': 0.01, 'kernel': 'rbf'}
+Best estimator: 
+SVC(C=100, gamma=0.01)

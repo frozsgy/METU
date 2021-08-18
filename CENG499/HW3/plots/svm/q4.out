@@ -1,0 +1,25 @@
+initial checks on the data
+0 count: 121
+1 count: 1379
+-------
+initial train data
+Accuracy: 0.9493333333333334
+[[   3   76]
+ [   0 1421]]
+-------
+oversampled train data
+count of elements after oversampling: 2831
+Accuracy: 0.958
+[[  31   48]
+ [  15 1406]]
+-------
+undersampled train data
+count of elements after undersampling: 242
+Accuracy: 0.8166666666666667
+[[  50   29]
+ [ 246 1175]]
+-------
+balanced train data
+Accuracy: 0.9586666666666667
+[[  38   41]
+ [  21 1400]]
