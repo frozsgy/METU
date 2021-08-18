@@ -1,0 +1,40 @@
+#1
+1aon.pdb
+Diameter = 203.005 Angstroms
+Between N:ALA(340) and T:GLU(53)
+#2
+3i84.pdb
+Diameter = 60.624 Angstroms
+Between A:GLY(34) and B:GLY(34)
+#3
+3wtg.pdb
+Diameter = 66.108 Angstroms
+Between A:ALA(53) and C:ALA(53)
+#4
+5roo.pdb
+Diameter = 47.184 Angstroms
+Between A:TYR(61) and A:ALA(279)
+#5
+6zgd.pdb
+Diameter = 111.686 Angstroms
+Between B:SER(283) and D:PRO(10)
+#6
+7bjs.pdb
+Diameter = 114.766 Angstroms
+Between A:ARG(923) and C:SER(324)
+#7
+7c3a.pdb
+Diameter = 100.117 Angstroms
+Between B:GLU(290) and C:ASP(231)
+#8
+7kmm.pdb
+Diameter = 136.169 Angstroms
+Between A:ASP(94) and B:ASP(94)
+#9
+7m5e.pdb
+Diameter = 153.188 Angstroms
+Between A:SER(28) and E:THR(1216)
+#10
+7oco.pdb
+Diameter = 100.448 Angstroms
+Between B:ALA(131) and D:ALA(131)
