@@ -1,0 +1,55 @@
+Starting Elbow plot for clustering1
+Best objective of k value: 1 for 10 times: 6622.9963293267165
+Best objective of k value: 2 for 10 times: 2074.0119479136542
+Best objective of k value: 3 for 10 times: 1604.219164931343
+Best objective of k value: 4 for 10 times: 1225.6713703426265
+Best objective of k value: 5 for 10 times: 946.0372091493706
+Best objective of k value: 6 for 10 times: 789.7408366023266
+Best objective of k value: 7 for 10 times: 676.6242250117683
+Best objective of k value: 8 for 10 times: 599.8748748980181
+Best objective of k value: 9 for 10 times: 546.5544872202134
+Best objective of k value: 10 for 10 times: 489.15798441990535
+Objectives: 
+[6622.9963293267165, 2074.0119479136542, 1604.219164931343, 1225.6713703426265, 946.0372091493706, 789.7408366023266, 676.6242250117683, 599.8748748980181, 546.5544872202134, 489.15798441990535]
+Starting Elbow plot for clustering2
+Best objective of k value: 1 for 10 times: 2765.9364371051047
+Best objective of k value: 2 for 10 times: 1550.498399982588
+Best objective of k value: 3 for 10 times: 624.8483633073762
+Best objective of k value: 4 for 10 times: 528.281228971914
+Best objective of k value: 5 for 10 times: 434.2725196889161
+Best objective of k value: 6 for 10 times: 378.6989693271737
+Best objective of k value: 7 for 10 times: 378.69911980503855
+Best objective of k value: 8 for 10 times: 326.8165399590348
+Best objective of k value: 9 for 10 times: 249.62685255617052
+Best objective of k value: 10 for 10 times: 221.6693038309802
+Objectives: 
+[2765.9364371051047, 1550.498399982588, 624.8483633073762, 528.281228971914, 434.2725196889161, 378.6989693271737, 378.69911980503855, 326.8165399590348, 249.62685255617052, 221.6693038309802]
+Starting Elbow plot for clustering3
+Best objective of k value: 1 for 10 times: 20707.460310416616
+Best objective of k value: 2 for 10 times: 5402.671328150133
+Best objective of k value: 3 for 10 times: 2900.3404854587743
+Best objective of k value: 4 for 10 times: 1443.0386774573685
+Best objective of k value: 5 for 10 times: 1269.362199458973
+Best objective of k value: 6 for 10 times: 1109.3790201072359
+Best objective of k value: 7 for 10 times: 1019.7746801098419
+Best objective of k value: 8 for 10 times: 891.2438810297225
+Best objective of k value: 9 for 10 times: 795.2863428183038
+Best objective of k value: 10 for 10 times: 896.462171520376
+Objectives: 
+[20707.460310416616, 5402.671328150133, 2900.3404854587743, 1443.0386774573685, 1269.362199458973, 1109.3790201072359, 1019.7746801098419, 891.2438810297225, 795.2863428183038, 896.462171520376]
+Starting Elbow plot for clustering4
+Best objective of k value: 1 for 10 times: 7810.569286228137
+Best objective of k value: 2 for 10 times: 3914.2076952136804
+Best objective of k value: 3 for 10 times: 2658.4320150014437
+Best objective of k value: 4 for 10 times: 1830.6847600942936
+Best objective of k value: 5 for 10 times: 332.06135352519516
+Best objective of k value: 6 for 10 times: 303.2242636920257
+Best objective of k value: 7 for 10 times: 282.18020441768186
+Best objective of k value: 8 for 10 times: 286.2784922528883
+Best objective of k value: 9 for 10 times: 240.12946806113982
+Best objective of k value: 10 for 10 times: 219.36074030370165
+Objectives: 
+[7810.569286228137, 3914.2076952136804, 2658.4320150014437, 1830.6847600942936, 332.06135352519516, 303.2242636920257, 282.18020441768186, 286.2784922528883, 240.12946806113982, 219.36074030370165]
+
+
+
