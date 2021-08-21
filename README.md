@@ -1,5 +1,5 @@
 # METU Computer Engineering Programme
-This repository includes all homeworks and assignments that was made by myself (and my team mates for some courses) while I was studying at at [METU Computer Engineering Programme](https://ceng.metu.edu.tr).
+This repository includes all homeworks and assignments that was made by myself (and my team mates for some courses) while I was studying as an undergraduate student at [METU Computer Engineering Programme](https://ceng.metu.edu.tr).
 
 ## Quick Reminder 
 This repository has no purpose to be used as "a repository of proper homework solutions". On the contrary, there are many "bad programming practice / programming horror" examples in this repository. However, I believe it serves as a good reference point to see how my coding style and perspective evolved throughout the whole process, and that's why I am keeping this repository public. If you're interested in "good examples", please check the following repositories:
@@ -36,6 +36,9 @@ Lab prelim & assignment submissions (Mainly reverse engineering & Intel x86-64 a
 ## [CENG 351 - Data Management and File Structures](https://github.com/frozsgy/METU/tree/master/CENG351)
 Programming Assignment submissions and some testers (Java & SQL)
 
+## [CENG 352 - Database Management Systems](https://github.com/frozsgy/METU/tree/master/CENG352)
+Written Assignment & Programming Assignment submissions (PDF & PostgreSQL)
+
 ## [CENG 334 - Introduction to Operating Systems](https://github.com/frozsgy/METU/tree/master/CENG334)
 Take Home Exam submissions (C & C++)
 
@@ -54,5 +57,11 @@ Socket programming assignment submission (Python)
 ## [CENG 443 - Object Oriented Programming](https://github.com/frozsgy/METU/tree/master/CENG443)
 Homework submissions (Java 8)
 
+## [CENG 465 - Introduction to Bioinformatics](https://github.com/frozsgy/METU/tree/master/CENG465)
+Homework submissions (PDF & Java)
+
 ## [CENG 477 - Introduction to Computer Graphics](https://github.com/frozsgy/METU/tree/master/CENG477)
 Homework submissions (OpenGL)
+
+## [CENG 499 - Introduction to Machine Learning](https://github.com/frozsgy/METU/tree/master/CENG499)
+Homework submissions (Python)
