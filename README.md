@@ -57,6 +57,9 @@ Socket programming assignment submission (Python)
 ## [CENG 443 - Object Oriented Programming](https://github.com/frozsgy/METU/tree/master/CENG443)
 Homework submissions (Java 8)
 
+## [CENG 453 - Software Construction](https://github.com/frozsgy/ceng453-project)
+Term project (Spring Boot) — A multiplayer Pişti game.
+
 ## [CENG 465 - Introduction to Bioinformatics](https://github.com/frozsgy/METU/tree/master/CENG465)
 Homework submissions (PDF & Java)
 
